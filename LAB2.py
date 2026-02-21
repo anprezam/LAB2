@@ -24,7 +24,7 @@ fig1 = px.histogram(
     facet_col="triage_level", facet_col_wrap=3,
     nbins=20,
     title="Wait Time Distribution by Triage Level",
-    labels={"wait_time_minutes": "Wait Time (minutes)", "triage_level": "Triage Level"},
+  labels={"wait_time_minutes": "Wait Time (minutes)", "triage_level": "Triage Level"},
     color_discrete_sequence=px.colors.qualitative.Set2
 )
 fig1.update_layout(
