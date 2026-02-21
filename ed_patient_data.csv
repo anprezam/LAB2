@@ -1,0 +1,551 @@
+patient_id,arrival_datetime,shift,day_of_week,age,gender,triage_level,triage_category,chief_complaint,arrival_mode,wait_time_minutes,length_of_stay_hrs,staff_on_shift,bed_occupancy_pct,attending_physician,nurse_assigned,insurance_type,disposition,readmit_within_30d
+ED00001,2024-07-15 12:40,Morning,Monday,23,Male,5,Non-Urgent,Rash,Ambulance,186.1,14.28,12,61,MD008,RN009,Uninsured,Discharged,0
+ED00002,2024-09-08 16:57,Evening,Sunday,26,Male,4,Less Urgent,Earache,Walk-in,67.7,7.33,8,76,MD001,RN006,Private,Discharged,0
+ED00003,2024-07-04 13:38,Morning,Thursday,37,Male,3,Urgent,Urinary retention,Police,14.6,5.65,16,76,MD008,RN029,Private,Discharged,0
+ED00004,2024-07-01 09:55,Morning,Monday,62,Male,3,Urgent,High fever,Transfer,24.7,5.2,13,64,MD009,RN010,Uninsured,Discharged,0
+ED00005,2024-07-14 22:21,Evening,Sunday,67,Male,4,Less Urgent,Back pain,Transfer,61.0,4.78,8,71,MD012,RN017,Private,Discharged,0
+ED00006,2024-07-16 02:34,Night,Tuesday,39,Female,5,Non-Urgent,Minor bruise,Transfer,334.4,7.73,9,47,MD012,RN013,Medicare,Discharged,1
+ED00007,2024-08-07 22:14,Evening,Wednesday,15,Male,4,Less Urgent,Back pain,Police,161.8,7.66,10,90,MD009,RN030,Medicaid,Discharged,0
+ED00008,2024-08-17 12:10,Morning,Saturday,36,Female,3,Urgent,Head injury,Walk-in,27.7,8.91,12,63,MD006,RN016,Uninsured,Discharged,0
+ED00009,2024-09-20 05:17,Night,Friday,1,Female,5,Non-Urgent,Rash,Walk-in,82.6,7.85,10,55,MD008,RN003,Private,Admitted,0
+ED00010,2024-07-28 18:04,Evening,Sunday,83,Female,2,Emergent,Severe bleeding,Ambulance,7.3,3.84,12,90,MD016,RN026,Medicaid,Discharged,0
+ED00011,2024-07-18 11:16,Morning,Thursday,52,Male,4,Less Urgent,UTI symptoms,Walk-in,128.3,7.49,13,76,MD009,RN028,Private,Admitted,0
+ED00012,2024-07-18 15:14,Morning,Thursday,48,Male,4,Less Urgent,Back pain,Walk-in,804.2,15.98,16,78,MD004,RN010,Medicare,Discharged,0
+ED00013,2024-08-24 16:43,Evening,Saturday,33,Male,3,Urgent,High fever,Police,83.3,5.92,12,78,MD015,RN034,Medicaid,Admitted,0
+ED00014,2024-07-02 05:55,Night,Tuesday,83,Female,3,Urgent,Urinary retention,Transfer,95.2,10.57,6,54,MD011,RN008,Uninsured,Discharged,0
+ED00015,2024-07-01 15:29,Morning,Monday,18,Male,4,Less Urgent,Laceration,Walk-in,48.3,7.52,14,78,MD004,RN020,Uninsured,Discharged,0
+ED00016,2024-07-20 20:12,Evening,Saturday,30,Male,1,Resuscitation,Anaphylaxis,Ambulance,1.3,5.54,10,85,MD001,RN021,Private,Admitted,1
+ED00017,2024-08-16 17:59,Evening,Friday,38,Male,3,Urgent,Abdominal pain,Ambulance,43.7,2.37,12,85,MD003,RN006,Private,Discharged,0
+ED00018,2024-09-07 14:48,Morning,Saturday,32,Male,2,Emergent,Seizure,Ambulance,14.6,4.08,11,74,MD006,RN017,Medicaid,Left AMA,0
+ED00019,2024-07-28 17:27,Evening,Sunday,43,Female,4,Less Urgent,Laceration,Transfer,151.8,5.13,12,84,MD013,RN024,Private,Admitted,0
+ED00020,2024-07-16 06:28,Night,Tuesday,7,Female,4,Less Urgent,Back pain,Transfer,53.0,4.07,7,63,MD001,RN015,Medicare,Admitted,0
+ED00021,2024-09-19 14:04,Morning,Thursday,68,Male,3,Urgent,Abdominal pain,Walk-in,18.2,6.26,12,74,MD011,RN005,Medicare,Transferred,0
+ED00022,2024-09-01 11:42,Morning,Sunday,78,Female,2,Emergent,Altered mental status,Ambulance,17.9,2.44,11,73,MD016,RN016,Medicare,Discharged,0
+ED00023,2024-07-13 20:12,Evening,Saturday,42,Female,5,Non-Urgent,Prescription refill,Transfer,40.2,9.83,8,84,MD014,RN027,Uninsured,Transferred,0
+ED00024,2024-09-25 18:03,Evening,Wednesday,2,Male,4,Less Urgent,Earache,Transfer,107.4,9.24,10,76,MD004,RN016,Medicare,Admitted,0
+ED00025,2024-07-18 08:28,Morning,Thursday,30,Female,3,Urgent,Head injury,Police,66.4,11.03,15,72,MD008,RN005,Medicaid,Discharged,0
+ED00026,2024-09-09 18:54,Evening,Monday,59,Male,4,Less Urgent,UTI symptoms,Walk-in,125.8,9.98,10,75,MD003,RN016,Medicaid,Discharged,0
+ED00027,2024-07-28 10:30,Morning,Sunday,64,Female,5,Non-Urgent,Cold symptoms,Police,216.4,7.49,13,66,MD001,RN025,Private,Discharged,0
+ED00028,2024-08-28 14:50,Morning,Wednesday,4,Female,2,Emergent,Overdose,Ambulance,5.2,8.14,14,67,MD005,RN013,Workers Comp,Left AMA,0
+ED00029,2024-09-13 21:03,Evening,Friday,95,Female,3,Urgent,Head injury,Walk-in,54.8,5.2,14,86,MD002,RN031,Private,Discharged,0
+ED00030,2024-07-21 20:33,Evening,Sunday,91,Female,3,Urgent,Abdominal pain,Ambulance,62.8,3.17,8,77,MD003,RN005,Medicare,Discharged,0
+ED00031,2024-09-11 16:56,Evening,Wednesday,84,Female,5,Non-Urgent,Minor bruise,Walk-in,133.8,4.49,11,88,MD003,RN027,Private,Admitted,0
+ED00032,2024-08-03 12:20,Morning,Saturday,83,Female,3,Urgent,Head injury,Ambulance,57.9,7.06,11,62,MD009,RN026,Private,Discharged,0
+ED00033,2024-08-28 19:19,Evening,Wednesday,85,Male,4,Less Urgent,Back pain,Police,173.0,9.51,12,87,MD004,RN005,Medicare,Discharged,0
+ED00034,2024-07-17 15:16,Morning,Wednesday,36,Female,1,Resuscitation,Respiratory failure,Ambulance,6.4,1.57,14,72,MD010,RN011,Medicaid,Deceased,0
+ED00035,2024-08-08 07:45,Night,Thursday,63,Male,3,Urgent,Urinary retention,Walk-in,33.9,7.3,10,49,MD010,RN007,Private,Discharged,0
+ED00036,2024-07-14 15:56,Morning,Sunday,77,Male,4,Less Urgent,Sprain,Transfer,12.2,5.22,14,64,MD007,RN022,Medicare,Discharged,0
+ED00037,2024-08-03 01:54,Night,Saturday,47,Male,5,Non-Urgent,Rash,Walk-in,263.2,11.92,8,53,MD003,RN028,Medicaid,Discharged,1
+ED00038,2024-07-17 15:21,Morning,Wednesday,94,Female,4,Less Urgent,Earache,Walk-in,22.6,8.15,14,61,MD014,RN001,Private,Discharged,0
+ED00039,2024-09-27 13:56,Morning,Friday,3,Male,3,Urgent,Abdominal pain,Transfer,87.6,4.39,13,62,MD005,RN028,Medicare,Discharged,1
+ED00040,2024-07-06 20:23,Evening,Saturday,53,Male,4,Less Urgent,Laceration,Walk-in,42.7,5.04,10,89,MD012,RN027,Private,Discharged,0
+ED00041,2024-07-31 12:59,Morning,Wednesday,44,Female,4,Less Urgent,Earache,Walk-in,46.3,5.62,13,71,MD006,RN022,Uninsured,Discharged,0
+ED00042,2024-08-01 17:55,Evening,Thursday,4,Female,2,Emergent,Chest pain,Transfer,13.6,3.35,12,77,MD002,RN031,Private,Discharged,0
+ED00043,2024-08-28 16:58,Evening,Wednesday,45,Female,3,Urgent,Fracture,Ambulance,71.6,5.87,12,82,MD001,RN013,Medicare,Transferred,0
+ED00044,2024-07-09 05:55,Night,Tuesday,39,Female,2,Emergent,Overdose,Ambulance,12.5,5.28,8,48,MD011,RN002,Medicaid,Admitted,0
+ED00045,2024-07-23 07:16,Night,Tuesday,71,Female,4,Less Urgent,Back pain,Walk-in,209.1,8.87,10,55,MD014,RN023,Medicare,Discharged,0
+ED00046,2024-07-15 18:32,Evening,Monday,44,Female,4,Less Urgent,Laceration,Transfer,74.9,6.06,13,70,MD002,RN028,Uninsured,Discharged,0
+ED00047,2024-09-07 20:51,Evening,Saturday,17,Female,3,Urgent,High fever,Walk-in,92.0,8.84,9,73,MD011,RN021,Uninsured,Discharged,0
+ED00048,2024-09-03 11:19,Morning,Tuesday,93,Female,5,Non-Urgent,Prescription refill,Transfer,123.6,6.21,14,75,MD013,RN019,Private,Admitted,0
+ED00049,2024-09-24 11:26,Morning,Tuesday,76,Female,3,Urgent,Fracture,Walk-in,71.6,8.4,15,75,MD010,RN026,Private,Discharged,0
+ED00050,2024-08-06 04:19,Night,Tuesday,42,Male,3,Urgent,Urinary retention,Walk-in,127.2,6.22,7,59,MD011,RN030,Private,Discharged,0
+ED00051,2024-09-04 16:13,Evening,Wednesday,12,Female,2,Emergent,Altered mental status,Walk-in,13.2,3.53,13,90,MD010,RN033,Medicare,Discharged,0
+ED00052,2024-07-31 23:05,Evening,Wednesday,93,Female,3,Urgent,Fracture,Ambulance,99.3,5.02,12,77,MD001,RN003,Medicaid,Admitted,0
+ED00053,2024-07-10 06:39,Night,Wednesday,87,Male,4,Less Urgent,UTI symptoms,Ambulance,21.0,11.85,9,57,MD013,RN032,Medicare,Discharged,0
+ED00054,2024-09-27 13:41,Morning,Friday,60,Female,2,Emergent,Seizure,Ambulance,22.3,7.49,12,72,MD006,RN034,Uninsured,Discharged,1
+ED00055,2024-07-16 09:15,Morning,Tuesday,12,Female,5,Non-Urgent,Prescription refill,Walk-in,105.9,6.28,15,77,MD011,RN029,Private,Left AMA,0
+ED00056,2024-09-03 16:57,Evening,Tuesday,60,Female,4,Less Urgent,Earache,Ambulance,426.4,9.93,13,78,MD016,RN029,Medicaid,Discharged,0
+ED00057,2024-09-20 22:53,Evening,Friday,35,Male,5,Non-Urgent,Prescription refill,Ambulance,863.3,17.15,12,72,MD009,RN029,Medicaid,Discharged,0
+ED00058,2024-08-04 15:15,Morning,Sunday,38,Female,2,Emergent,Overdose,Walk-in,12.8,14.03,12,65,MD005,RN010,Uninsured,Discharged,0
+ED00059,2024-07-28 19:09,Evening,Sunday,47,Female,5,Non-Urgent,Prescription refill,Transfer,286.7,15.65,8,71,MD015,RN027,Medicare,Admitted,0
+ED00060,2024-08-19 01:26,Night,Monday,44,Female,3,Urgent,Abdominal pain,Walk-in,68.7,3.47,10,45,MD013,RN031,Uninsured,Admitted,0
+ED00061,2024-08-19 13:19,Morning,Monday,83,Female,3,Urgent,Urinary retention,Walk-in,29.5,4.83,15,65,MD008,RN032,Workers Comp,Deceased,0
+ED00062,2024-07-04 15:31,Morning,Thursday,20,Female,4,Less Urgent,Earache,Ambulance,45.2,2.47,15,77,MD015,RN009,Medicaid,Admitted,0
+ED00063,2024-08-20 17:58,Evening,Tuesday,66,Female,4,Less Urgent,Back pain,Walk-in,37.0,4.35,14,84,MD014,RN009,Private,Admitted,0
+ED00064,2024-08-18 20:16,Evening,Sunday,46,Male,4,Less Urgent,Earache,Transfer,203.7,8.35,10,78,MD011,RN025,Private,Discharged,0
+ED00065,2024-08-23 16:53,Evening,Friday,3,Male,4,Less Urgent,Earache,Walk-in,57.0,4.6,12,77,MD002,RN023,Private,Discharged,0
+ED00066,2024-09-22 13:49,Morning,Sunday,75,Male,5,Non-Urgent,Cold symptoms,Ambulance,138.2,3.52,10,65,MD001,RN010,Uninsured,Admitted,0
+ED00067,2024-07-15 22:42,Evening,Monday,34,Male,2,Emergent,Seizure,Transfer,10.6,7.4,14,89,MD012,RN011,Medicaid,Discharged,0
+ED00068,2024-07-15 16:47,Evening,Monday,26,Male,3,Urgent,Abdominal pain,Walk-in,60.4,3.56,11,88,MD001,RN020,Private,Transferred,0
+ED00069,2024-08-20 17:24,Evening,Tuesday,26,Male,2,Emergent,Overdose,Ambulance,9.3,2.94,11,89,MD004,RN020,Medicaid,Discharged,0
+ED00070,2024-09-11 12:50,Morning,Wednesday,77,Female,3,Urgent,Urinary retention,Police,35.6,5.19,12,74,MD012,RN005,Uninsured,Discharged,0
+ED00071,2024-08-23 21:00,Evening,Friday,72,Male,2,Emergent,Seizure,Ambulance,19.0,3.41,13,83,MD015,RN010,Private,Discharged,0
+ED00072,2024-09-22 16:33,Evening,Sunday,6,Male,3,Urgent,Urinary retention,Police,155.5,6.45,10,88,MD015,RN028,Uninsured,Admitted,0
+ED00073,2024-08-01 14:54,Morning,Thursday,56,Male,3,Urgent,High fever,Ambulance,34.9,3.11,12,68,MD015,RN025,Medicaid,Discharged,1
+ED00074,2024-08-11 01:54,Night,Sunday,19,Female,3,Urgent,Fracture,Transfer,44.4,3.08,5,53,MD009,RN022,Private,Discharged,0
+ED00075,2024-08-05 19:44,Evening,Monday,60,Female,3,Urgent,Urinary retention,Ambulance,41.5,3.36,14,83,MD003,RN016,Medicare,Discharged,0
+ED00076,2024-07-31 10:48,Morning,Wednesday,42,Female,3,Urgent,High fever,Police,60.9,15.11,15,67,MD001,RN006,Medicaid,Admitted,0
+ED00077,2024-08-01 07:44,Night,Thursday,27,Male,2,Emergent,Overdose,Ambulance,11.3,3.53,8,56,MD016,RN034,Medicare,Transferred,0
+ED00078,2024-09-09 14:47,Morning,Monday,83,Female,3,Urgent,High fever,Transfer,44.6,5.0,14,65,MD010,RN017,Medicare,Discharged,0
+ED00079,2024-08-10 17:12,Evening,Saturday,36,Female,5,Non-Urgent,Minor bruise,Ambulance,924.8,27.26,8,85,MD007,RN014,Medicaid,Discharged,0
+ED00080,2024-09-06 13:37,Morning,Friday,62,Male,3,Urgent,Abdominal pain,Ambulance,21.6,4.09,16,69,MD010,RN015,Medicare,Discharged,0
+ED00081,2024-09-07 14:00,Morning,Saturday,21,Male,3,Urgent,Abdominal pain,Walk-in,36.4,4.12,11,78,MD010,RN009,Medicaid,Left AMA,0
+ED00082,2024-07-14 19:31,Evening,Sunday,61,Male,3,Urgent,Head injury,Police,117.3,9.08,8,80,MD016,RN029,Medicaid,Discharged,0
+ED00083,2024-08-02 21:03,Evening,Friday,26,Male,4,Less Urgent,Back pain,Police,87.2,6.18,13,88,MD016,RN005,Private,Admitted,0
+ED00084,2024-07-20 19:03,Evening,Saturday,24,Male,2,Emergent,Severe bleeding,Walk-in,9.8,6.54,9,87,MD008,RN008,Private,Admitted,0
+ED00085,2024-09-15 12:38,Morning,Sunday,49,Male,5,Non-Urgent,Minor bruise,Police,272.2,8.05,14,67,MD015,RN029,Medicaid,Discharged,0
+ED00086,2024-08-09 18:27,Evening,Friday,45,Female,3,Urgent,Abdominal pain,Walk-in,49.5,4.75,14,90,MD004,RN014,Private,Transferred,0
+ED00087,2024-07-11 07:42,Night,Thursday,21,Female,5,Non-Urgent,Cold symptoms,Walk-in,46.2,9.67,7,45,MD003,RN011,Private,Admitted,0
+ED00088,2024-09-15 20:44,Evening,Sunday,33,Female,4,Less Urgent,Back pain,Ambulance,58.9,3.67,11,84,MD010,RN019,Private,Discharged,0
+ED00089,2024-08-03 18:14,Evening,Saturday,18,Female,5,Non-Urgent,Cold symptoms,Police,306.0,8.4,12,90,MD004,RN015,Private,Discharged,0
+ED00090,2024-07-19 19:17,Evening,Friday,70,Female,2,Emergent,Altered mental status,Walk-in,21.1,2.93,10,73,MD010,RN029,Medicaid,Discharged,0
+ED00091,2024-09-28 11:19,Morning,Saturday,46,Male,2,Emergent,Overdose,Transfer,10.9,7.58,13,60,MD016,RN029,Private,Discharged,0
+ED00092,2024-08-25 14:56,Morning,Sunday,68,Female,4,Less Urgent,Sprain,Walk-in,76.0,8.19,12,76,MD003,RN015,Medicare,Admitted,0
+ED00093,2024-09-25 15:01,Morning,Wednesday,91,Female,4,Less Urgent,Back pain,Ambulance,221.4,6.99,14,78,MD016,RN034,Medicare,Discharged,0
+ED00094,2024-07-24 23:17,Evening,Wednesday,61,Male,4,Less Urgent,Earache,Walk-in,74.9,9.89,14,83,MD016,RN023,Medicaid,Discharged,0
+ED00095,2024-07-14 19:42,Evening,Sunday,57,Female,1,Resuscitation,Severe trauma,Ambulance,2.6,1.7,9,87,MD010,RN026,Private,Deceased,1
+ED00096,2024-08-10 09:05,Morning,Saturday,54,Male,3,Urgent,Abdominal pain,Police,32.2,4.34,12,75,MD017,RN001,Medicaid,Transferred,0
+ED00097,2024-07-25 15:03,Morning,Thursday,15,Non-binary/Other,4,Less Urgent,UTI symptoms,Police,43.7,3.04,16,64,MD015,RN004,Private,Discharged,0
+ED00098,2024-08-06 05:08,Night,Tuesday,28,Male,4,Less Urgent,Earache,Walk-in,125.3,6.2,9,50,MD001,RN016,Private,Discharged,0
+ED00099,2024-09-09 15:00,Morning,Monday,56,Male,2,Emergent,Altered mental status,Ambulance,7.4,11.17,15,78,MD015,RN008,Medicare,Discharged,0
+ED00100,2024-08-07 09:31,Morning,Wednesday,35,Female,5,Non-Urgent,Rash,Police,70.6,7.33,16,65,MD016,RN031,Medicare,Discharged,0
+ED00101,2024-08-19 08:09,Morning,Monday,30,Male,4,Less Urgent,UTI symptoms,Ambulance,61.2,5.58,13,71,MD003,RN018,Medicare,Admitted,0
+ED00102,2024-09-03 07:50,Night,Tuesday,32,Male,4,Less Urgent,Sprain,Transfer,167.1,5.17,8,59,MD016,RN010,Private,Discharged,0
+ED00103,2024-08-12 20:22,Evening,Monday,28,Male,4,Less Urgent,Earache,Police,267.5,6.91,14,77,MD011,RN013,Medicare,Transferred,0
+ED00104,2024-08-22 06:14,Night,Thursday,85,Female,3,Urgent,High fever,Police,20.8,13.27,6,60,MD013,RN010,Medicaid,Discharged,0
+ED00105,2024-09-03 12:08,Morning,Tuesday,47,Female,4,Less Urgent,Back pain,Police,99.2,3.57,16,72,MD004,RN034,Medicaid,Discharged,1
+ED00106,2024-08-22 22:09,Evening,Thursday,77,Male,4,Less Urgent,Earache,Transfer,185.2,7.49,11,90,MD011,RN026,Medicaid,Discharged,0
+ED00107,2024-09-25 15:21,Morning,Wednesday,80,Female,4,Less Urgent,Sprain,Police,32.9,4.04,16,65,MD002,RN005,Medicare,Discharged,0
+ED00108,2024-08-06 10:58,Morning,Tuesday,58,Female,1,Resuscitation,Cardiac arrest,Walk-in,1.4,6.26,13,72,MD004,RN007,Medicare,Admitted,0
+ED00109,2024-07-04 20:19,Evening,Thursday,66,Male,5,Non-Urgent,Sore throat,Transfer,574.7,21.08,10,83,MD012,RN024,Private,Transferred,0
+ED00110,2024-08-22 12:33,Morning,Thursday,62,Male,3,Urgent,Fracture,Ambulance,23.3,5.44,16,77,MD006,RN006,Medicaid,Discharged,0
+ED00111,2024-09-26 12:39,Morning,Thursday,52,Female,4,Less Urgent,UTI symptoms,Ambulance,104.1,3.3,13,78,MD008,RN030,Private,Transferred,0
+ED00112,2024-09-24 09:16,Morning,Tuesday,8,Female,1,Resuscitation,Stroke,Ambulance,3.6,1.86,12,72,MD006,RN005,Medicare,Deceased,0
+ED00113,2024-08-08 05:37,Night,Thursday,49,Male,4,Less Urgent,Sprain,Police,519.0,13.01,9,57,MD010,RN013,Private,Admitted,0
+ED00114,2024-07-31 17:06,Evening,Wednesday,16,Female,3,Urgent,Head injury,Walk-in,12.2,9.11,13,70,MD010,RN019,Workers Comp,Discharged,0
+ED00115,2024-08-20 13:42,Morning,Tuesday,71,Female,2,Emergent,Overdose,Walk-in,17.5,5.11,14,65,MD016,RN019,Uninsured,Admitted,0
+ED00116,2024-07-29 10:22,Morning,Monday,26,Female,3,Urgent,Head injury,Ambulance,48.8,5.89,13,67,MD004,RN003,Medicare,Transferred,0
+ED00117,2024-09-13 17:02,Evening,Friday,83,Female,3,Urgent,Fracture,Walk-in,43.0,7.46,12,83,MD010,RN021,Uninsured,Discharged,0
+ED00118,2024-09-08 02:08,Night,Sunday,13,Female,4,Less Urgent,UTI symptoms,Transfer,86.3,5.16,6,60,MD006,RN017,Private,Discharged,0
+ED00119,2024-08-13 05:18,Night,Tuesday,39,Female,3,Urgent,Abdominal pain,Ambulance,184.6,8.12,6,62,MD008,RN026,Private,Transferred,0
+ED00120,2024-08-20 10:50,Morning,Tuesday,92,Female,1,Resuscitation,Anaphylaxis,Transfer,2.9,8.54,12,66,MD015,RN024,Private,Deceased,0
+ED00121,2024-09-20 14:52,Morning,Friday,48,Female,4,Less Urgent,Laceration,Police,43.3,11.44,14,77,MD001,RN021,Medicare,Discharged,0
+ED00122,2024-09-20 12:04,Morning,Friday,7,Male,3,Urgent,Head injury,Police,15.8,3.09,15,59,MD004,RN009,Private,Left AMA,0
+ED00123,2024-09-02 12:19,Morning,Monday,93,Male,4,Less Urgent,Laceration,Walk-in,153.1,6.49,12,72,MD005,RN025,Medicare,Admitted,0
+ED00124,2024-09-28 23:47,Evening,Saturday,62,Female,3,Urgent,Urinary retention,Ambulance,49.7,6.85,12,85,MD014,RN007,Medicare,Discharged,0
+ED00125,2024-07-05 09:17,Morning,Friday,10,Female,2,Emergent,Seizure,Transfer,6.3,9.25,14,61,MD008,RN024,Workers Comp,Transferred,0
+ED00126,2024-09-08 08:23,Morning,Sunday,23,Female,3,Urgent,High fever,Transfer,66.7,9.52,12,72,MD007,RN008,Medicaid,Discharged,0
+ED00127,2024-09-21 15:13,Morning,Saturday,84,Male,4,Less Urgent,Back pain,Transfer,31.6,5.47,14,76,MD008,RN009,Uninsured,Discharged,0
+ED00128,2024-09-09 22:53,Evening,Monday,58,Male,5,Non-Urgent,Cold symptoms,Ambulance,207.1,12.04,11,89,MD011,RN010,Medicaid,Discharged,1
+ED00129,2024-07-19 10:54,Morning,Friday,30,Female,4,Less Urgent,Sprain,Ambulance,33.6,5.02,13,62,MD004,RN002,Uninsured,Discharged,1
+ED00130,2024-07-31 14:50,Morning,Wednesday,42,Female,3,Urgent,Abdominal pain,Ambulance,69.1,6.66,16,62,MD009,RN004,Medicaid,Discharged,0
+ED00131,2024-07-15 20:33,Evening,Monday,83,Female,4,Less Urgent,Earache,Transfer,189.0,8.92,10,84,MD017,RN007,Private,Admitted,0
+ED00132,2024-07-06 17:39,Evening,Saturday,84,Female,4,Less Urgent,Earache,Walk-in,48.0,6.78,12,82,MD002,RN031,Uninsured,Discharged,0
+ED00133,2024-09-01 07:06,Night,Sunday,79,Female,3,Urgent,Abdominal pain,Transfer,39.7,6.69,7,49,MD005,RN005,Medicare,Discharged,0
+ED00134,2024-09-13 10:40,Morning,Friday,34,Female,4,Less Urgent,Sprain,Police,55.2,5.65,16,72,MD017,RN019,Private,Discharged,0
+ED00135,2024-07-13 07:27,Night,Saturday,41,Female,4,Less Urgent,UTI symptoms,Ambulance,203.6,8.01,4,52,MD014,RN029,Medicare,Transferred,0
+ED00136,2024-08-28 21:52,Evening,Wednesday,69,Male,4,Less Urgent,Back pain,Transfer,65.6,4.61,13,78,MD014,RN021,Medicaid,Discharged,0
+ED00137,2024-09-26 16:09,Evening,Thursday,4,Male,1,Resuscitation,Cardiac arrest,Ambulance,3.6,3.33,13,73,MD003,RN028,Private,Deceased,0
+ED00138,2024-07-17 13:23,Morning,Wednesday,76,Female,3,Urgent,Urinary retention,Walk-in,12.6,4.24,16,71,MD011,RN008,Medicare,Discharged,0
+ED00139,2024-08-24 17:42,Evening,Saturday,92,Male,4,Less Urgent,UTI symptoms,Transfer,82.5,3.63,8,88,MD012,RN007,Private,Admitted,0
+ED00140,2024-09-23 10:09,Morning,Monday,31,Male,5,Non-Urgent,Sore throat,Transfer,194.2,7.2,15,66,MD012,RN008,Private,Discharged,0
+ED00141,2024-08-24 12:51,Morning,Saturday,27,Female,5,Non-Urgent,Minor bruise,Walk-in,145.5,6.83,14,58,MD001,RN018,Private,Admitted,0
+ED00142,2024-08-09 19:44,Evening,Friday,5,Female,4,Less Urgent,Back pain,Ambulance,37.9,6.07,12,72,MD005,RN026,Private,Admitted,0
+ED00143,2024-07-04 14:40,Morning,Thursday,48,Male,2,Emergent,Overdose,Ambulance,13.0,3.06,12,72,MD013,RN027,Private,Discharged,0
+ED00144,2024-08-09 10:23,Morning,Friday,2,Male,4,Less Urgent,UTI symptoms,Walk-in,43.3,2.16,14,63,MD002,RN010,Private,Discharged,0
+ED00145,2024-09-25 16:03,Evening,Wednesday,75,Male,3,Urgent,High fever,Police,85.2,7.21,10,83,MD016,RN029,Medicare,Discharged,0
+ED00146,2024-09-04 10:48,Morning,Wednesday,63,Female,5,Non-Urgent,Prescription refill,Walk-in,103.6,3.96,12,74,MD010,RN032,Medicare,Discharged,0
+ED00147,2024-07-29 11:02,Morning,Monday,5,Male,3,Urgent,Abdominal pain,Walk-in,26.8,3.42,15,64,MD007,RN020,Medicare,Discharged,0
+ED00148,2024-08-02 15:48,Morning,Friday,25,Male,4,Less Urgent,Back pain,Walk-in,39.2,6.97,14,63,MD016,RN028,Private,Admitted,0
+ED00149,2024-07-30 01:34,Night,Tuesday,69,Female,5,Non-Urgent,Rash,Walk-in,160.3,5.71,10,58,MD013,RN003,Uninsured,Admitted,1
+ED00150,2024-07-10 11:58,Morning,Wednesday,50,Female,4,Less Urgent,Earache,Walk-in,177.6,8.01,14,67,MD013,RN027,Private,Discharged,0
+ED00151,2024-08-11 06:01,Night,Sunday,83,Male,2,Emergent,Seizure,Transfer,12.9,3.57,5,48,MD003,RN028,Medicare,Discharged,0
+ED00152,2024-08-21 19:37,Evening,Wednesday,70,Male,4,Less Urgent,Earache,Transfer,768.3,17.03,14,80,MD011,RN015,Workers Comp,Deceased,0
+ED00153,2024-09-04 17:04,Evening,Wednesday,5,Male,2,Emergent,Overdose,Ambulance,9.9,5.25,10,90,MD012,RN023,Private,Admitted,0
+ED00154,2024-07-14 18:15,Evening,Sunday,99,Male,3,Urgent,Fracture,Ambulance,21.9,2.23,9,75,MD005,RN005,Private,Admitted,0
+ED00155,2024-09-02 13:40,Morning,Monday,86,Male,4,Less Urgent,UTI symptoms,Police,137.5,6.67,15,62,MD011,RN021,Private,Discharged,0
+ED00156,2024-08-26 21:30,Evening,Monday,71,Male,3,Urgent,Urinary retention,Walk-in,124.4,12.33,12,72,MD012,RN033,Uninsured,Admitted,0
+ED00157,2024-07-05 09:28,Morning,Friday,32,Female,3,Urgent,Head injury,Walk-in,37.5,9.68,12,70,MD003,RN033,Private,Discharged,0
+ED00158,2024-07-06 12:35,Morning,Saturday,96,Male,4,Less Urgent,Laceration,Transfer,49.2,3.11,13,62,MD016,RN033,Medicaid,Admitted,0
+ED00159,2024-07-14 18:28,Evening,Sunday,31,Male,2,Emergent,Chest pain,Ambulance,13.0,6.18,10,77,MD006,RN003,Medicaid,Discharged,0
+ED00160,2024-09-06 19:28,Evening,Friday,69,Male,3,Urgent,Fracture,Transfer,62.0,2.98,14,82,MD012,RN019,Medicare,Discharged,0
+ED00161,2024-09-25 18:21,Evening,Wednesday,77,Female,4,Less Urgent,Sprain,Walk-in,189.4,7.4,14,87,MD011,RN007,Medicaid,Admitted,0
+ED00162,2024-08-02 07:18,Night,Friday,91,Male,3,Urgent,Head injury,Walk-in,57.8,3.93,10,54,MD005,RN023,Private,Discharged,0
+ED00163,2024-09-23 21:44,Evening,Monday,22,Female,3,Urgent,Urinary retention,Walk-in,27.7,4.97,13,90,MD010,RN025,Medicare,Left AMA,0
+ED00164,2024-07-17 22:52,Evening,Wednesday,55,Female,4,Less Urgent,Earache,Walk-in,64.4,9.67,14,81,MD012,RN002,Medicare,Admitted,0
+ED00165,2024-08-13 01:13,Night,Tuesday,67,Female,3,Urgent,Fracture,Ambulance,30.4,7.1,9,54,MD005,RN005,Private,Discharged,0
+ED00166,2024-09-03 13:06,Morning,Tuesday,80,Female,5,Non-Urgent,Minor bruise,Walk-in,132.2,4.79,16,77,MD011,RN009,Private,Admitted,0
+ED00167,2024-07-24 16:10,Evening,Wednesday,91,Female,5,Non-Urgent,Prescription refill,Walk-in,71.4,5.86,14,77,MD014,RN024,Medicaid,Admitted,0
+ED00168,2024-08-06 17:39,Evening,Tuesday,65,Non-binary/Other,3,Urgent,Urinary retention,Ambulance,24.4,5.76,13,76,MD010,RN031,Workers Comp,Discharged,0
+ED00169,2024-08-26 12:36,Morning,Monday,71,Female,5,Non-Urgent,Prescription refill,Walk-in,117.6,12.56,15,63,MD017,RN027,Medicaid,Discharged,0
+ED00170,2024-09-16 17:51,Evening,Monday,49,Female,4,Less Urgent,Back pain,Police,151.6,9.09,11,86,MD012,RN007,Private,Discharged,0
+ED00171,2024-07-11 00:18,Night,Thursday,68,Male,3,Urgent,High fever,Walk-in,26.3,2.11,7,47,MD005,RN028,Medicaid,Discharged,0
+ED00172,2024-08-27 12:14,Morning,Tuesday,66,Female,3,Urgent,High fever,Walk-in,38.3,3.58,14,69,MD013,RN033,Medicaid,Discharged,0
+ED00173,2024-08-17 20:05,Evening,Saturday,41,Male,3,Urgent,Head injury,Walk-in,37.6,5.06,9,74,MD011,RN010,Private,Discharged,1
+ED00174,2024-08-30 15:58,Morning,Friday,70,Female,4,Less Urgent,Earache,Police,113.3,8.22,13,58,MD001,RN006,Medicare,Discharged,0
+ED00175,2024-07-20 00:53,Night,Saturday,90,Male,4,Less Urgent,UTI symptoms,Walk-in,91.5,7.2,8,54,MD014,RN008,Medicaid,Transferred,0
+ED00176,2024-07-07 07:07,Night,Sunday,38,Female,3,Urgent,Urinary retention,Police,38.0,3.12,5,60,MD003,RN008,Medicaid,Discharged,0
+ED00177,2024-09-19 16:01,Evening,Thursday,19,Male,4,Less Urgent,Laceration,Ambulance,44.2,2.47,14,70,MD010,RN028,Medicare,Admitted,0
+ED00178,2024-09-12 14:15,Morning,Thursday,33,Female,4,Less Urgent,Back pain,Walk-in,66.0,3.65,15,74,MD012,RN005,Uninsured,Discharged,0
+ED00179,2024-09-03 15:50,Morning,Tuesday,61,Female,1,Resuscitation,Severe trauma,Transfer,2.7,4.92,16,69,MD002,RN025,Private,Admitted,0
+ED00180,2024-08-15 12:01,Morning,Thursday,31,Female,4,Less Urgent,Laceration,Walk-in,55.9,7.97,12,59,MD011,RN009,Uninsured,Discharged,0
+ED00181,2024-09-21 13:21,Morning,Saturday,50,Female,4,Less Urgent,Earache,Police,89.0,4.29,11,60,MD006,RN009,Private,Discharged,0
+ED00182,2024-07-05 20:29,Evening,Friday,57,Male,3,Urgent,Abdominal pain,Ambulance,104.3,13.61,12,79,MD002,RN021,Private,Discharged,0
+ED00183,2024-09-08 14:52,Morning,Sunday,46,Male,5,Non-Urgent,Sore throat,Ambulance,142.5,5.19,13,59,MD010,RN023,Private,Admitted,0
+ED00184,2024-08-04 23:21,Evening,Sunday,60,Male,2,Emergent,Seizure,Ambulance,17.7,3.55,8,80,MD015,RN025,Uninsured,Discharged,0
+ED00185,2024-09-27 09:31,Morning,Friday,12,Female,3,Urgent,Urinary retention,Transfer,20.2,2.49,15,60,MD003,RN028,Uninsured,Discharged,0
+ED00186,2024-07-24 10:52,Morning,Wednesday,56,Male,3,Urgent,Head injury,Walk-in,37.5,8.01,16,67,MD003,RN021,Private,Discharged,0
+ED00187,2024-08-24 23:38,Evening,Saturday,51,Male,4,Less Urgent,Earache,Transfer,358.6,11.74,9,81,MD015,RN003,Workers Comp,Discharged,0
+ED00188,2024-08-05 08:27,Morning,Monday,16,Male,4,Less Urgent,Earache,Transfer,79.7,3.25,12,58,MD017,RN011,Medicaid,Admitted,0
+ED00189,2024-09-25 17:38,Evening,Wednesday,99,Female,4,Less Urgent,Laceration,Walk-in,31.8,4.24,13,81,MD008,RN024,Uninsured,Discharged,0
+ED00190,2024-07-05 14:36,Morning,Friday,20,Female,4,Less Urgent,Earache,Transfer,63.2,4.78,16,60,MD012,RN029,Private,Admitted,0
+ED00191,2024-08-16 02:33,Night,Friday,15,Female,3,Urgent,Head injury,Ambulance,33.8,2.58,9,50,MD004,RN002,Medicaid,Discharged,0
+ED00192,2024-09-10 12:24,Morning,Tuesday,89,Female,3,Urgent,Head injury,Police,50.2,20.84,12,73,MD007,RN019,Uninsured,Deceased,0
+ED00193,2024-07-10 09:08,Morning,Wednesday,44,Female,5,Non-Urgent,Prescription refill,Walk-in,93.2,5.78,15,60,MD011,RN023,Uninsured,Admitted,0
+ED00194,2024-08-08 19:18,Evening,Thursday,25,Female,3,Urgent,Fracture,Transfer,41.3,3.54,11,73,MD017,RN015,Workers Comp,Discharged,0
+ED00195,2024-07-18 16:50,Evening,Thursday,62,Female,4,Less Urgent,Back pain,Transfer,83.4,8.71,11,87,MD012,RN030,Private,Discharged,0
+ED00196,2024-07-12 12:56,Morning,Friday,4,Male,2,Emergent,Seizure,Transfer,7.2,4.13,12,71,MD017,RN027,Workers Comp,Discharged,0
+ED00197,2024-07-17 13:04,Morning,Wednesday,17,Female,3,Urgent,Abdominal pain,Police,4.5,5.42,14,69,MD015,RN034,Private,Discharged,0
+ED00198,2024-09-09 17:53,Evening,Monday,100,Male,2,Emergent,Altered mental status,Walk-in,7.1,4.43,14,73,MD017,RN004,Medicaid,Left AMA,0
+ED00199,2024-07-22 08:19,Morning,Monday,68,Male,2,Emergent,Altered mental status,Ambulance,6.8,3.85,13,60,MD017,RN019,Uninsured,Deceased,0
+ED00200,2024-09-09 16:40,Evening,Monday,48,Male,3,Urgent,Head injury,Walk-in,62.8,18.74,12,90,MD003,RN033,Private,Transferred,0
+ED00201,2024-07-20 09:37,Morning,Saturday,71,Female,3,Urgent,Urinary retention,Walk-in,94.0,5.27,11,58,MD011,RN003,Private,Discharged,0
+ED00202,2024-09-12 14:41,Morning,Thursday,21,Female,1,Resuscitation,Respiratory failure,Ambulance,3.6,2.84,14,73,MD014,RN002,Workers Comp,Admitted,0
+ED00203,2024-08-07 19:34,Evening,Wednesday,58,Male,5,Non-Urgent,Cold symptoms,Police,49.2,5.22,12,72,MD010,RN030,Medicare,Admitted,0
+ED00204,2024-08-26 14:10,Morning,Monday,52,Male,2,Emergent,Seizure,Ambulance,17.5,2.96,15,68,MD011,RN010,Private,Discharged,0
+ED00205,2024-08-14 20:20,Evening,Wednesday,68,Male,5,Non-Urgent,Rash,Walk-in,62.2,9.4,13,77,MD004,RN021,Uninsured,Discharged,0
+ED00206,2024-08-27 02:17,Night,Tuesday,66,Female,5,Non-Urgent,Sore throat,Walk-in,1217.4,23.41,7,64,MD010,RN025,Private,Admitted,0
+ED00207,2024-07-21 05:55,Night,Sunday,55,Female,3,Urgent,Head injury,Ambulance,92.5,4.53,6,61,MD006,RN032,Medicare,Discharged,0
+ED00208,2024-08-09 18:56,Evening,Friday,42,Female,2,Emergent,Chest pain,Walk-in,5.1,2.59,13,77,MD017,RN030,Medicare,Discharged,0
+ED00209,2024-07-07 06:22,Night,Sunday,4,Male,4,Less Urgent,Earache,Walk-in,70.8,8.78,4,62,MD016,RN019,Medicaid,Left AMA,1
+ED00210,2024-08-25 18:06,Evening,Sunday,19,Female,4,Less Urgent,Sprain,Police,34.5,3.89,9,82,MD012,RN003,Private,Admitted,0
+ED00211,2024-07-25 14:35,Morning,Thursday,72,Female,1,Resuscitation,Stroke,Walk-in,4.5,13.27,14,72,MD013,RN033,Uninsured,Admitted,0
+ED00212,2024-09-18 09:17,Morning,Wednesday,62,Female,3,Urgent,Fracture,Walk-in,8.8,1.54,16,68,MD013,RN024,Medicare,Discharged,0
+ED00213,2024-07-19 09:23,Morning,Friday,78,Female,5,Non-Urgent,Minor bruise,Police,29.4,8.24,13,59,MD017,RN003,Uninsured,Admitted,1
+ED00214,2024-08-12 10:45,Morning,Monday,71,Female,4,Less Urgent,Earache,Ambulance,153.2,6.67,15,68,MD017,RN009,Medicare,Admitted,0
+ED00215,2024-07-21 15:20,Morning,Sunday,70,Female,5,Non-Urgent,Rash,Walk-in,90.1,5.76,13,74,MD011,RN033,Private,Discharged,0
+ED00216,2024-09-11 19:45,Evening,Wednesday,55,Male,4,Less Urgent,Back pain,Transfer,507.9,17.01,12,83,MD011,RN008,Private,Discharged,0
+ED00217,2024-09-27 20:50,Evening,Friday,51,Male,4,Less Urgent,Earache,Transfer,54.5,6.88,10,88,MD008,RN004,Private,Discharged,0
+ED00218,2024-09-19 23:33,Evening,Thursday,28,Female,2,Emergent,Altered mental status,Walk-in,23.2,3.86,14,76,MD002,RN008,Medicare,Admitted,1
+ED00219,2024-08-23 12:20,Morning,Friday,73,Male,4,Less Urgent,Laceration,Police,59.1,5.51,13,59,MD017,RN031,Medicaid,Admitted,0
+ED00220,2024-07-27 22:33,Evening,Saturday,38,Female,3,Urgent,High fever,Walk-in,23.8,3.84,12,75,MD013,RN021,Medicaid,Deceased,0
+ED00221,2024-08-13 13:34,Morning,Tuesday,45,Male,4,Less Urgent,Sprain,Walk-in,64.8,8.92,16,65,MD016,RN013,Medicare,Admitted,0
+ED00222,2024-07-29 16:19,Evening,Monday,64,Male,3,Urgent,Fracture,Police,30.1,21.3,12,81,MD011,RN031,Private,Discharged,0
+ED00223,2024-08-05 15:59,Morning,Monday,35,Female,4,Less Urgent,UTI symptoms,Walk-in,140.4,8.73,14,69,MD013,RN026,Medicare,Discharged,0
+ED00224,2024-07-19 04:51,Night,Friday,76,Female,3,Urgent,Head injury,Walk-in,100.1,9.62,8,65,MD012,RN029,Medicare,Discharged,0
+ED00225,2024-07-28 11:30,Morning,Sunday,61,Female,3,Urgent,Head injury,Walk-in,38.1,4.8,11,61,MD009,RN009,Uninsured,Deceased,0
+ED00226,2024-07-31 16:37,Evening,Wednesday,19,Male,3,Urgent,Urinary retention,Ambulance,109.8,8.19,11,73,MD008,RN004,Private,Admitted,0
+ED00227,2024-08-30 15:45,Morning,Friday,41,Male,4,Less Urgent,Laceration,Walk-in,47.1,3.07,12,78,MD006,RN027,Uninsured,Discharged,0
+ED00228,2024-08-30 10:56,Morning,Friday,34,Male,3,Urgent,Fracture,Transfer,39.9,4.77,15,78,MD011,RN019,Uninsured,Admitted,0
+ED00229,2024-07-12 09:49,Morning,Friday,21,Male,4,Less Urgent,UTI symptoms,Walk-in,21.2,1.15,16,63,MD006,RN027,Private,Admitted,0
+ED00230,2024-08-20 13:02,Morning,Tuesday,62,Male,4,Less Urgent,Sprain,Walk-in,35.8,6.53,15,76,MD001,RN020,Private,Admitted,0
+ED00231,2024-08-12 22:59,Evening,Monday,34,Male,2,Emergent,Overdose,Transfer,11.4,4.16,12,86,MD016,RN009,Medicaid,Discharged,0
+ED00232,2024-07-15 18:12,Evening,Monday,10,Female,3,Urgent,High fever,Transfer,30.6,4.95,12,80,MD006,RN001,Private,Discharged,0
+ED00233,2024-09-25 12:36,Morning,Wednesday,58,Female,3,Urgent,Urinary retention,Police,42.9,5.44,13,68,MD014,RN033,Private,Discharged,0
+ED00234,2024-07-13 10:42,Morning,Saturday,59,Male,4,Less Urgent,Earache,Transfer,30.2,6.8,11,66,MD008,RN001,Private,Left AMA,0
+ED00235,2024-08-04 11:28,Morning,Sunday,33,Female,2,Emergent,Overdose,Ambulance,8.1,3.37,12,78,MD001,RN017,Medicare,Discharged,0
+ED00236,2024-07-08 20:15,Evening,Monday,57,Male,4,Less Urgent,Sprain,Ambulance,103.2,5.32,10,79,MD013,RN033,Private,Discharged,0
+ED00237,2024-08-07 08:40,Morning,Wednesday,51,Male,5,Non-Urgent,Cold symptoms,Ambulance,136.8,9.99,14,62,MD005,RN031,Private,Admitted,0
+ED00238,2024-08-17 04:38,Night,Saturday,9,Female,3,Urgent,Urinary retention,Police,56.5,11.17,7,64,MD007,RN016,Medicaid,Discharged,0
+ED00239,2024-09-06 08:05,Morning,Friday,28,Female,3,Urgent,Head injury,Walk-in,34.7,12.46,15,75,MD004,RN004,Uninsured,Admitted,0
+ED00240,2024-09-12 10:12,Morning,Thursday,57,Female,3,Urgent,Fracture,Transfer,55.2,5.2,16,61,MD017,RN029,Private,Discharged,0
+ED00241,2024-09-13 19:45,Evening,Friday,36,Female,3,Urgent,Urinary retention,Police,45.2,2.64,13,74,MD002,RN030,Private,Discharged,0
+ED00242,2024-09-11 19:29,Evening,Wednesday,24,Female,3,Urgent,High fever,Transfer,51.6,8.34,10,78,MD001,RN026,Medicaid,Admitted,0
+ED00243,2024-07-28 20:47,Evening,Sunday,26,Female,5,Non-Urgent,Sore throat,Police,89.0,5.0,12,87,MD012,RN005,Medicare,Admitted,0
+ED00244,2024-07-09 13:59,Morning,Tuesday,96,Male,4,Less Urgent,Sprain,Police,59.2,11.44,15,78,MD006,RN009,Private,Left AMA,0
+ED00245,2024-08-23 16:41,Evening,Friday,24,Male,2,Emergent,Seizure,Ambulance,10.8,8.28,12,87,MD013,RN006,Private,Discharged,1
+ED00246,2024-08-14 20:55,Evening,Wednesday,82,Female,2,Emergent,Overdose,Ambulance,8.3,6.55,10,77,MD017,RN009,Medicaid,Admitted,0
+ED00247,2024-07-03 13:48,Morning,Wednesday,54,Female,4,Less Urgent,UTI symptoms,Police,11.3,3.3,14,65,MD013,RN015,Medicare,Discharged,0
+ED00248,2024-08-05 17:09,Evening,Monday,22,Male,4,Less Urgent,Back pain,Walk-in,70.3,4.77,11,77,MD014,RN002,Private,Discharged,0
+ED00249,2024-09-15 17:06,Evening,Sunday,52,Female,4,Less Urgent,UTI symptoms,Walk-in,219.0,7.11,8,82,MD008,RN003,Medicare,Admitted,0
+ED00250,2024-07-28 17:34,Evening,Sunday,26,Female,3,Urgent,Urinary retention,Transfer,39.1,5.71,8,88,MD008,RN021,Uninsured,Discharged,0
+ED00251,2024-08-11 10:43,Morning,Sunday,38,Male,4,Less Urgent,Laceration,Walk-in,81.3,15.7,11,67,MD008,RN027,Medicaid,Discharged,0
+ED00252,2024-09-14 17:35,Evening,Saturday,76,Female,5,Non-Urgent,Prescription refill,Walk-in,192.4,9.22,9,81,MD016,RN004,Uninsured,Discharged,0
+ED00253,2024-08-18 17:42,Evening,Sunday,51,Female,4,Less Urgent,Earache,Police,72.5,3.71,12,82,MD005,RN020,Private,Discharged,0
+ED00254,2024-08-30 22:34,Evening,Friday,72,Female,2,Emergent,Severe bleeding,Ambulance,9.2,4.4,11,87,MD015,RN004,Medicaid,Admitted,0
+ED00255,2024-09-10 21:26,Evening,Tuesday,36,Female,4,Less Urgent,Earache,Ambulance,145.9,5.7,14,80,MD009,RN014,Private,Discharged,0
+ED00256,2024-08-27 15:59,Morning,Tuesday,61,Male,2,Emergent,Overdose,Ambulance,3.0,3.8,14,70,MD002,RN018,Medicare,Admitted,0
+ED00257,2024-07-06 20:38,Evening,Saturday,85,Male,5,Non-Urgent,Minor bruise,Walk-in,345.8,18.27,8,76,MD007,RN031,Medicaid,Discharged,0
+ED00258,2024-08-08 19:21,Evening,Thursday,11,Female,1,Resuscitation,Respiratory failure,Ambulance,3.8,9.06,10,89,MD016,RN016,Uninsured,Admitted,0
+ED00259,2024-07-31 17:25,Evening,Wednesday,55,Male,4,Less Urgent,Sprain,Police,83.4,9.56,14,79,MD015,RN023,Private,Discharged,0
+ED00260,2024-09-02 18:32,Evening,Monday,62,Female,4,Less Urgent,Earache,Transfer,68.2,9.08,13,80,MD007,RN024,Private,Discharged,0
+ED00261,2024-07-29 10:36,Morning,Monday,53,Female,3,Urgent,Head injury,Walk-in,30.4,3.21,13,62,MD014,RN019,Private,Left AMA,0
+ED00262,2024-08-18 18:14,Evening,Sunday,33,Male,3,Urgent,High fever,Walk-in,28.6,5.51,12,85,MD011,RN017,Medicare,Discharged,0
+ED00263,2024-09-01 08:41,Morning,Sunday,62,Male,3,Urgent,Head injury,Ambulance,13.5,4.49,13,63,MD005,RN032,Private,Discharged,0
+ED00264,2024-09-21 00:34,Night,Saturday,77,Female,1,Resuscitation,Cardiac arrest,Ambulance,4.8,2.93,4,58,MD002,RN001,Private,Transferred,1
+ED00265,2024-07-30 06:40,Night,Tuesday,55,Female,4,Less Urgent,Laceration,Walk-in,94.7,4.36,6,59,MD007,RN033,Private,Discharged,0
+ED00266,2024-09-20 23:39,Evening,Friday,48,Male,2,Emergent,Seizure,Transfer,7.0,1.92,14,70,MD001,RN027,Private,Admitted,1
+ED00267,2024-08-05 11:46,Morning,Monday,68,Male,4,Less Urgent,Back pain,Walk-in,60.8,4.11,16,61,MD014,RN012,Private,Discharged,0
+ED00268,2024-07-20 12:33,Morning,Saturday,12,Male,2,Emergent,Overdose,Ambulance,27.4,3.79,11,66,MD009,RN023,Private,Left AMA,0
+ED00269,2024-08-17 17:05,Evening,Saturday,64,Female,3,Urgent,Urinary retention,Ambulance,43.6,5.26,11,72,MD008,RN020,Uninsured,Admitted,0
+ED00270,2024-09-22 18:54,Evening,Sunday,2,Male,2,Emergent,Seizure,Ambulance,7.4,4.91,8,71,MD013,RN031,Private,Discharged,0
+ED00271,2024-07-22 03:44,Night,Monday,71,Female,2,Emergent,Seizure,Walk-in,5.6,7.05,6,46,MD004,RN034,Private,Admitted,0
+ED00272,2024-09-27 17:57,Evening,Friday,50,Female,3,Urgent,Head injury,Walk-in,79.2,4.32,14,87,MD003,RN018,Uninsured,Admitted,0
+ED00273,2024-07-23 21:02,Evening,Tuesday,44,Female,3,Urgent,Fracture,Walk-in,77.1,2.85,12,72,MD005,RN026,Private,Admitted,0
+ED00274,2024-07-31 12:36,Morning,Wednesday,85,Male,2,Emergent,Overdose,Ambulance,4.2,4.01,16,60,MD013,RN009,Private,Discharged,0
+ED00275,2024-07-07 16:22,Evening,Sunday,39,Female,3,Urgent,Fracture,Walk-in,48.7,3.73,8,80,MD011,RN026,Medicaid,Admitted,1
+ED00276,2024-08-27 09:17,Morning,Tuesday,21,Female,5,Non-Urgent,Rash,Walk-in,475.0,11.31,15,63,MD013,RN028,Private,Discharged,0
+ED00277,2024-08-18 22:42,Evening,Sunday,4,Female,3,Urgent,Head injury,Ambulance,25.1,4.03,8,78,MD003,RN006,Medicaid,Discharged,0
+ED00278,2024-09-20 20:45,Evening,Friday,85,Female,2,Emergent,Seizure,Walk-in,12.0,5.34,11,72,MD012,RN007,Medicaid,Left AMA,1
+ED00279,2024-08-26 22:19,Evening,Monday,57,Male,3,Urgent,Abdominal pain,Ambulance,14.7,2.52,12,83,MD003,RN012,Private,Discharged,0
+ED00280,2024-09-04 18:35,Evening,Wednesday,34,Male,4,Less Urgent,Back pain,Walk-in,18.0,3.54,13,89,MD012,RN006,Medicaid,Discharged,0
+ED00281,2024-08-19 10:20,Morning,Monday,60,Male,5,Non-Urgent,Prescription refill,Police,17.5,7.31,12,76,MD003,RN016,Private,Discharged,0
+ED00282,2024-08-18 14:43,Morning,Sunday,63,Male,3,Urgent,Head injury,Transfer,87.2,15.97,11,62,MD009,RN032,Medicare,Discharged,0
+ED00283,2024-08-05 14:27,Morning,Monday,57,Female,3,Urgent,High fever,Walk-in,38.0,6.57,15,65,MD012,RN017,Private,Discharged,0
+ED00284,2024-09-15 07:31,Night,Sunday,92,Male,4,Less Urgent,Earache,Walk-in,184.1,6.66,8,45,MD005,RN020,Workers Comp,Discharged,0
+ED00285,2024-09-18 14:21,Morning,Wednesday,36,Male,5,Non-Urgent,Prescription refill,Transfer,17.6,9.85,15,67,MD014,RN009,Private,Admitted,0
+ED00286,2024-07-26 14:44,Morning,Friday,98,Male,3,Urgent,Fracture,Police,66.7,6.24,15,78,MD011,RN019,Private,Admitted,0
+ED00287,2024-08-01 15:36,Morning,Thursday,82,Male,5,Non-Urgent,Rash,Police,77.3,5.38,14,76,MD012,RN008,Uninsured,Admitted,0
+ED00288,2024-07-24 04:34,Night,Wednesday,63,Female,5,Non-Urgent,Prescription refill,Ambulance,259.1,5.09,10,47,MD015,RN019,Private,Discharged,0
+ED00289,2024-08-22 17:50,Evening,Thursday,37,Male,4,Less Urgent,Sprain,Ambulance,41.0,6.4,13,83,MD009,RN010,Medicaid,Admitted,0
+ED00290,2024-08-27 09:04,Morning,Tuesday,37,Male,5,Non-Urgent,Minor bruise,Police,190.5,9.27,16,75,MD017,RN027,Uninsured,Admitted,1
+ED00291,2024-09-28 18:23,Evening,Saturday,66,Female,2,Emergent,Chest pain,Walk-in,19.5,7.37,12,75,MD008,RN023,Medicare,Admitted,0
+ED00292,2024-09-11 14:02,Morning,Wednesday,11,Male,2,Emergent,Seizure,Ambulance,3.2,1.74,15,66,MD001,RN007,Uninsured,Admitted,0
+ED00293,2024-09-05 05:47,Night,Thursday,13,Female,5,Non-Urgent,Minor bruise,Ambulance,27.6,5.55,10,57,MD015,RN024,Private,Admitted,0
+ED00294,2024-09-14 03:43,Night,Saturday,31,Male,2,Emergent,Severe bleeding,Walk-in,6.4,2.94,8,54,MD016,RN007,Private,Transferred,0
+ED00295,2024-07-15 21:05,Evening,Monday,64,Female,3,Urgent,Head injury,Transfer,15.9,4.4,11,86,MD015,RN014,Medicaid,Admitted,0
+ED00296,2024-07-13 17:30,Evening,Saturday,50,Female,2,Emergent,Seizure,Walk-in,12.8,8.4,11,71,MD003,RN020,Private,Discharged,0
+ED00297,2024-07-03 10:07,Morning,Wednesday,58,Female,4,Less Urgent,Back pain,Ambulance,90.6,7.58,14,63,MD008,RN034,Private,Discharged,0
+ED00298,2024-09-10 10:21,Morning,Tuesday,63,Male,3,Urgent,Fracture,Police,19.6,3.83,15,78,MD006,RN012,Medicaid,Admitted,0
+ED00299,2024-07-04 00:25,Night,Thursday,80,Male,3,Urgent,High fever,Walk-in,44.4,5.66,10,45,MD014,RN025,Private,Discharged,0
+ED00300,2024-08-05 11:13,Morning,Monday,81,Male,2,Emergent,Chest pain,Walk-in,4.6,2.82,12,68,MD006,RN024,Private,Transferred,0
+ED00301,2024-08-03 21:07,Evening,Saturday,45,Female,3,Urgent,Head injury,Walk-in,44.6,15.46,11,88,MD013,RN026,Medicare,Admitted,0
+ED00302,2024-08-28 08:22,Morning,Wednesday,73,Female,4,Less Urgent,Sprain,Walk-in,63.1,5.72,16,68,MD003,RN009,Medicaid,Admitted,0
+ED00303,2024-07-15 07:19,Night,Monday,43,Female,4,Less Urgent,Laceration,Walk-in,82.5,6.25,7,64,MD013,RN027,Private,Discharged,0
+ED00304,2024-08-24 13:24,Morning,Saturday,9,Female,3,Urgent,Urinary retention,Ambulance,15.1,2.17,11,67,MD006,RN032,Uninsured,Discharged,0
+ED00305,2024-08-27 20:20,Evening,Tuesday,84,Male,3,Urgent,Head injury,Walk-in,30.3,16.34,14,76,MD016,RN009,Private,Admitted,0
+ED00306,2024-09-03 11:35,Morning,Tuesday,39,Female,2,Emergent,Seizure,Ambulance,18.6,7.6,15,63,MD015,RN032,Medicare,Admitted,1
+ED00307,2024-07-29 20:01,Evening,Monday,18,Female,3,Urgent,Head injury,Ambulance,30.2,4.57,12,84,MD010,RN011,Uninsured,Discharged,0
+ED00308,2024-09-02 00:49,Night,Monday,53,Male,3,Urgent,Abdominal pain,Walk-in,47.6,3.26,10,62,MD004,RN018,Private,Discharged,0
+ED00309,2024-09-08 00:23,Night,Sunday,67,Male,3,Urgent,High fever,Walk-in,73.8,7.45,4,48,MD007,RN028,Private,Admitted,0
+ED00310,2024-08-01 14:41,Morning,Thursday,19,Male,5,Non-Urgent,Prescription refill,Transfer,169.2,9.21,14,72,MD012,RN006,Medicaid,Discharged,0
+ED00311,2024-07-31 18:07,Evening,Wednesday,1,Male,3,Urgent,Urinary retention,Transfer,19.6,2.18,11,89,MD014,RN011,Workers Comp,Admitted,0
+ED00312,2024-07-27 19:13,Evening,Saturday,75,Male,1,Resuscitation,Stroke,Ambulance,4.3,5.26,8,80,MD009,RN011,Medicaid,Admitted,0
+ED00313,2024-08-07 10:18,Morning,Wednesday,10,Female,3,Urgent,Urinary retention,Walk-in,26.3,12.58,16,59,MD005,RN027,Private,Left AMA,0
+ED00314,2024-09-22 23:55,Evening,Sunday,28,Male,3,Urgent,Fracture,Ambulance,21.4,3.45,9,77,MD005,RN021,Private,Admitted,0
+ED00315,2024-08-20 15:43,Morning,Tuesday,45,Female,2,Emergent,Overdose,Ambulance,11.7,9.08,15,72,MD014,RN025,Uninsured,Discharged,1
+ED00316,2024-07-12 11:50,Morning,Friday,10,Male,3,Urgent,Head injury,Transfer,40.1,7.17,15,68,MD015,RN032,Private,Discharged,0
+ED00317,2024-07-12 13:55,Morning,Friday,32,Female,2,Emergent,Severe bleeding,Walk-in,8.9,6.51,15,71,MD013,RN014,Medicaid,Discharged,0
+ED00318,2024-08-04 19:31,Evening,Sunday,7,Male,3,Urgent,Head injury,Walk-in,10.5,11.42,10,80,MD005,RN032,Medicaid,Discharged,0
+ED00319,2024-07-07 03:48,Night,Sunday,95,Male,4,Less Urgent,Earache,Walk-in,93.9,7.94,4,59,MD004,RN011,Workers Comp,Left AMA,0
+ED00320,2024-07-26 17:27,Evening,Friday,49,Female,5,Non-Urgent,Rash,Ambulance,30.1,6.42,11,90,MD009,RN006,Private,Discharged,0
+ED00321,2024-08-17 23:05,Evening,Saturday,73,Male,2,Emergent,Seizure,Ambulance,18.2,4.84,9,90,MD008,RN028,Medicaid,Admitted,1
+ED00322,2024-07-01 16:06,Evening,Monday,74,Female,4,Less Urgent,Back pain,Ambulance,102.5,3.89,11,84,MD008,RN034,Medicare,Discharged,1
+ED00323,2024-08-13 12:44,Morning,Tuesday,30,Male,5,Non-Urgent,Cold symptoms,Police,182.9,5.14,12,70,MD003,RN015,Private,Admitted,0
+ED00324,2024-07-14 06:51,Night,Sunday,66,Male,3,Urgent,Head injury,Transfer,71.6,4.54,4,49,MD005,RN025,Private,Discharged,0
+ED00325,2024-07-19 21:43,Evening,Friday,73,Female,5,Non-Urgent,Minor bruise,Walk-in,39.9,2.38,10,81,MD006,RN029,Private,Left AMA,0
+ED00326,2024-07-20 12:40,Morning,Saturday,43,Female,4,Less Urgent,Earache,Ambulance,91.0,3.25,13,62,MD003,RN007,Medicare,Discharged,0
+ED00327,2024-08-19 21:37,Evening,Monday,6,Male,2,Emergent,Severe bleeding,Ambulance,4.8,4.65,12,90,MD008,RN018,Medicaid,Admitted,1
+ED00328,2024-09-15 22:35,Evening,Sunday,55,Female,4,Less Urgent,UTI symptoms,Transfer,391.9,8.28,12,76,MD001,RN020,Medicaid,Discharged,0
+ED00329,2024-07-25 20:32,Evening,Thursday,75,Male,5,Non-Urgent,Sore throat,Ambulance,95.8,9.39,13,73,MD016,RN025,Medicaid,Discharged,0
+ED00330,2024-09-15 16:40,Evening,Sunday,29,Male,2,Emergent,Chest pain,Ambulance,25.1,3.9,8,82,MD011,RN009,Private,Left AMA,0
+ED00331,2024-08-23 12:36,Morning,Friday,68,Female,4,Less Urgent,Laceration,Police,42.2,8.66,14,76,MD003,RN002,Medicare,Admitted,0
+ED00332,2024-07-28 20:16,Evening,Sunday,6,Male,3,Urgent,High fever,Walk-in,36.2,2.25,8,83,MD010,RN033,Medicare,Admitted,0
+ED00333,2024-07-11 13:25,Morning,Thursday,38,Male,3,Urgent,Urinary retention,Ambulance,17.8,2.72,16,67,MD009,RN006,Private,Discharged,0
+ED00334,2024-07-27 22:58,Evening,Saturday,81,Male,3,Urgent,Head injury,Police,121.1,9.35,9,83,MD003,RN020,Medicaid,Discharged,0
+ED00335,2024-07-31 17:54,Evening,Wednesday,86,Female,4,Less Urgent,Back pain,Police,62.0,3.3,10,89,MD004,RN030,Private,Left AMA,0
+ED00336,2024-09-24 12:19,Morning,Tuesday,57,Female,4,Less Urgent,Back pain,Ambulance,40.7,5.82,13,73,MD001,RN011,Private,Discharged,0
+ED00337,2024-09-05 15:33,Morning,Thursday,70,Female,5,Non-Urgent,Rash,Ambulance,22.1,7.58,14,58,MD009,RN008,Private,Discharged,0
+ED00338,2024-08-04 14:27,Morning,Sunday,51,Female,3,Urgent,Head injury,Walk-in,72.5,9.35,14,72,MD003,RN032,Private,Admitted,0
+ED00339,2024-09-02 20:03,Evening,Monday,42,Male,3,Urgent,Head injury,Ambulance,27.0,6.65,14,88,MD009,RN007,Uninsured,Left AMA,0
+ED00340,2024-07-30 17:07,Evening,Tuesday,54,Male,4,Less Urgent,Back pain,Walk-in,119.0,6.71,14,85,MD008,RN003,Private,Discharged,0
+ED00341,2024-07-20 18:58,Evening,Saturday,31,Female,3,Urgent,Urinary retention,Police,49.5,6.71,9,77,MD008,RN021,Private,Admitted,0
+ED00342,2024-08-10 22:46,Evening,Saturday,83,Male,2,Emergent,Overdose,Walk-in,39.9,5.26,10,71,MD004,RN033,Private,Discharged,0
+ED00343,2024-09-05 07:51,Night,Thursday,37,Female,5,Non-Urgent,Sore throat,Police,118.5,4.65,6,55,MD010,RN020,Private,Admitted,0
+ED00344,2024-07-02 10:29,Morning,Tuesday,87,Male,4,Less Urgent,Sprain,Walk-in,163.2,7.96,14,72,MD010,RN016,Medicare,Admitted,0
+ED00345,2024-07-26 15:31,Morning,Friday,63,Male,3,Urgent,Fracture,Walk-in,14.5,2.23,16,65,MD014,RN002,Private,Admitted,0
+ED00346,2024-09-27 05:40,Night,Friday,67,Male,4,Less Urgent,Back pain,Police,79.6,2.94,6,51,MD010,RN007,Medicaid,Discharged,0
+ED00347,2024-08-23 21:15,Evening,Friday,28,Male,4,Less Urgent,Laceration,Transfer,186.2,13.79,13,77,MD003,RN003,Medicare,Admitted,0
+ED00348,2024-08-22 10:33,Morning,Thursday,11,Female,3,Urgent,Abdominal pain,Walk-in,43.2,5.07,14,62,MD004,RN033,Workers Comp,Discharged,0
+ED00349,2024-07-10 07:25,Night,Wednesday,48,Male,3,Urgent,Abdominal pain,Police,104.2,10.08,10,54,MD005,RN016,Medicaid,Discharged,0
+ED00350,2024-08-20 09:20,Morning,Tuesday,65,Female,3,Urgent,High fever,Transfer,17.8,2.75,14,64,MD008,RN005,Medicare,Admitted,0
+ED00351,2024-09-13 05:49,Night,Friday,61,Female,5,Non-Urgent,Sore throat,Ambulance,111.4,5.66,6,55,MD015,RN030,Medicaid,Admitted,0
+ED00352,2024-08-15 00:34,Night,Thursday,69,Female,5,Non-Urgent,Rash,Police,362.5,8.29,7,47,MD009,RN008,Medicaid,Discharged,0
+ED00353,2024-08-08 16:43,Evening,Thursday,28,Female,5,Non-Urgent,Cold symptoms,Transfer,175.7,8.43,14,77,MD005,RN006,Private,Admitted,0
+ED00354,2024-09-04 12:25,Morning,Wednesday,50,Female,1,Resuscitation,Stroke,Ambulance,1.5,6.13,12,70,MD006,RN002,Private,Admitted,0
+ED00355,2024-09-09 22:35,Evening,Monday,16,Female,2,Emergent,Seizure,Transfer,12.6,4.25,11,70,MD005,RN008,Medicaid,Discharged,1
+ED00356,2024-07-29 13:49,Morning,Monday,62,Female,4,Less Urgent,Earache,Transfer,66.6,5.36,13,60,MD003,RN017,Private,Discharged,1
+ED00357,2024-07-26 06:04,Night,Friday,2,Male,2,Emergent,Chest pain,Ambulance,19.8,6.63,9,59,MD004,RN003,Medicaid,Discharged,1
+ED00358,2024-09-12 04:59,Night,Thursday,67,Male,3,Urgent,High fever,Police,94.6,12.52,9,58,MD001,RN025,Uninsured,Left AMA,0
+ED00359,2024-07-24 19:13,Evening,Wednesday,28,Female,4,Less Urgent,Earache,Ambulance,85.7,8.43,12,90,MD002,RN016,Private,Admitted,0
+ED00360,2024-09-09 14:26,Morning,Monday,60,Female,2,Emergent,Chest pain,Ambulance,13.1,4.17,15,71,MD013,RN009,Uninsured,Discharged,0
+ED00361,2024-09-06 17:56,Evening,Friday,33,Female,4,Less Urgent,UTI symptoms,Walk-in,472.1,10.72,11,85,MD013,RN023,Private,Discharged,0
+ED00362,2024-08-14 17:31,Evening,Wednesday,4,Male,5,Non-Urgent,Rash,Police,69.5,2.7,14,70,MD009,RN012,Medicare,Discharged,0
+ED00363,2024-07-04 14:14,Morning,Thursday,47,Female,5,Non-Urgent,Prescription refill,Walk-in,115.9,5.51,14,63,MD012,RN015,Medicare,Discharged,0
+ED00364,2024-07-31 08:42,Morning,Wednesday,84,Female,2,Emergent,Chest pain,Walk-in,12.8,2.62,14,63,MD013,RN023,Medicaid,Discharged,0
+ED00365,2024-08-10 11:37,Morning,Saturday,43,Male,3,Urgent,Abdominal pain,Transfer,301.2,14.48,12,73,MD005,RN013,Private,Admitted,0
+ED00366,2024-09-01 11:11,Morning,Sunday,42,Female,5,Non-Urgent,Sore throat,Ambulance,103.1,7.17,10,74,MD008,RN002,Uninsured,Left AMA,0
+ED00367,2024-09-17 07:21,Night,Tuesday,27,Female,3,Urgent,Head injury,Ambulance,72.6,28.08,7,45,MD011,RN004,Uninsured,Admitted,0
+ED00368,2024-07-19 20:45,Evening,Friday,24,Female,4,Less Urgent,Sprain,Walk-in,464.3,10.01,10,88,MD012,RN026,Private,Discharged,0
+ED00369,2024-08-11 09:19,Morning,Sunday,55,Male,2,Emergent,Seizure,Ambulance,19.7,8.1,11,75,MD011,RN012,Medicare,Discharged,0
+ED00370,2024-09-17 20:59,Evening,Tuesday,30,Female,3,Urgent,Urinary retention,Ambulance,25.6,4.2,12,79,MD013,RN020,Medicaid,Admitted,0
+ED00371,2024-07-01 04:46,Night,Monday,95,Female,3,Urgent,Urinary retention,Walk-in,33.4,3.5,10,64,MD006,RN021,Private,Discharged,0
+ED00372,2024-07-14 13:36,Morning,Sunday,25,Female,3,Urgent,Head injury,Walk-in,77.2,9.73,13,68,MD008,RN023,Uninsured,Discharged,0
+ED00373,2024-07-12 16:56,Evening,Friday,19,Male,3,Urgent,Abdominal pain,Transfer,52.8,3.47,12,72,MD007,RN016,Private,Discharged,0
+ED00374,2024-07-14 09:50,Morning,Sunday,55,Male,3,Urgent,High fever,Police,38.7,5.63,10,71,MD014,RN011,Private,Discharged,0
+ED00375,2024-08-14 05:24,Night,Wednesday,68,Male,3,Urgent,Abdominal pain,Police,231.2,11.82,10,59,MD008,RN011,Private,Discharged,0
+ED00376,2024-07-05 15:54,Morning,Friday,53,Male,4,Less Urgent,Sprain,Transfer,82.7,6.87,14,68,MD004,RN005,Private,Admitted,0
+ED00377,2024-07-21 09:24,Morning,Sunday,13,Male,5,Non-Urgent,Sore throat,Transfer,106.4,10.05,10,71,MD016,RN002,Uninsured,Admitted,0
+ED00378,2024-09-16 09:10,Morning,Monday,57,Female,2,Emergent,Chest pain,Ambulance,7.4,8.0,15,64,MD011,RN014,Medicare,Admitted,0
+ED00379,2024-09-08 12:35,Morning,Sunday,30,Male,4,Less Urgent,Sprain,Transfer,15.5,6.76,12,59,MD008,RN007,Medicare,Discharged,0
+ED00380,2024-09-01 12:35,Morning,Sunday,69,Male,3,Urgent,Head injury,Walk-in,75.6,10.89,11,67,MD014,RN006,Private,Discharged,0
+ED00381,2024-09-15 14:40,Morning,Sunday,58,Male,1,Resuscitation,Cardiac arrest,Walk-in,3.4,6.75,13,78,MD007,RN011,Private,Deceased,0
+ED00382,2024-08-30 19:05,Evening,Friday,63,Female,3,Urgent,High fever,Police,65.5,3.77,10,72,MD016,RN017,Medicare,Discharged,0
+ED00383,2024-07-24 20:24,Evening,Wednesday,61,Female,4,Less Urgent,Sprain,Ambulance,94.4,6.98,12,78,MD015,RN003,Private,Transferred,0
+ED00384,2024-07-29 16:16,Evening,Monday,35,Male,2,Emergent,Chest pain,Ambulance,35.7,4.53,12,81,MD004,RN006,Medicaid,Discharged,0
+ED00385,2024-09-14 13:26,Morning,Saturday,13,Female,5,Non-Urgent,Sore throat,Police,31.9,5.1,11,75,MD017,RN027,Uninsured,Discharged,0
+ED00386,2024-08-30 17:59,Evening,Friday,34,Female,4,Less Urgent,Earache,Transfer,150.4,4.83,14,71,MD003,RN026,Medicaid,Admitted,0
+ED00387,2024-09-05 10:57,Morning,Thursday,61,Male,2,Emergent,Overdose,Walk-in,4.4,6.9,16,63,MD004,RN029,Private,Admitted,0
+ED00388,2024-07-28 18:10,Evening,Sunday,43,Male,2,Emergent,Chest pain,Ambulance,16.5,3.52,9,76,MD003,RN028,Medicare,Discharged,0
+ED00389,2024-07-19 20:40,Evening,Friday,66,Male,3,Urgent,Head injury,Walk-in,27.0,5.12,14,87,MD003,RN025,Uninsured,Transferred,0
+ED00390,2024-08-05 11:20,Morning,Monday,60,Male,5,Non-Urgent,Sore throat,Walk-in,53.0,7.48,16,61,MD017,RN027,Workers Comp,Discharged,0
+ED00391,2024-09-11 11:09,Morning,Wednesday,100,Male,4,Less Urgent,Back pain,Walk-in,72.7,6.63,16,75,MD004,RN019,Private,Discharged,0
+ED00392,2024-08-22 07:56,Night,Thursday,59,Male,1,Resuscitation,Severe trauma,Walk-in,7.4,3.25,8,50,MD016,RN003,Private,Admitted,0
+ED00393,2024-09-18 16:09,Evening,Wednesday,63,Female,4,Less Urgent,Earache,Walk-in,168.9,17.87,14,77,MD013,RN022,Private,Discharged,1
+ED00394,2024-08-04 23:30,Evening,Sunday,45,Male,4,Less Urgent,Sprain,Transfer,368.8,9.48,10,85,MD010,RN018,Uninsured,Discharged,0
+ED00395,2024-07-13 21:43,Evening,Saturday,100,Female,3,Urgent,Head injury,Police,18.4,5.18,9,83,MD011,RN018,Uninsured,Admitted,0
+ED00396,2024-07-25 18:05,Evening,Thursday,67,Female,4,Less Urgent,Earache,Police,72.2,4.23,13,71,MD017,RN024,Uninsured,Discharged,0
+ED00397,2024-07-09 08:10,Morning,Tuesday,65,Male,3,Urgent,Urinary retention,Police,74.0,9.79,14,76,MD005,RN034,Private,Discharged,1
+ED00398,2024-07-26 16:12,Evening,Friday,66,Female,2,Emergent,Chest pain,Ambulance,10.6,13.53,10,76,MD002,RN024,Private,Discharged,0
+ED00399,2024-08-29 16:52,Evening,Thursday,95,Female,4,Less Urgent,Back pain,Walk-in,99.9,7.58,14,85,MD008,RN024,Private,Discharged,0
+ED00400,2024-08-30 08:11,Morning,Friday,60,Female,4,Less Urgent,Sprain,Transfer,73.8,5.19,16,60,MD006,RN017,Medicare,Discharged,0
+ED00401,2024-07-07 01:24,Night,Sunday,84,Female,3,Urgent,Fracture,Ambulance,80.1,4.18,5,53,MD008,RN014,Medicaid,Admitted,0
+ED00402,2024-07-03 20:32,Evening,Wednesday,36,Female,5,Non-Urgent,Cold symptoms,Ambulance,235.5,6.69,10,78,MD001,RN015,Medicare,Deceased,0
+ED00403,2024-09-21 20:19,Evening,Saturday,81,Male,4,Less Urgent,Earache,Transfer,87.2,7.34,10,76,MD015,RN017,Medicare,Discharged,0
+ED00404,2024-09-05 22:43,Evening,Thursday,12,Male,4,Less Urgent,UTI symptoms,Walk-in,60.8,3.88,14,81,MD001,RN033,Private,Discharged,0
+ED00405,2024-09-16 10:38,Morning,Monday,97,Female,2,Emergent,Chest pain,Transfer,7.9,4.01,14,66,MD003,RN022,Medicaid,Discharged,0
+ED00406,2024-08-05 19:55,Evening,Monday,20,Male,3,Urgent,Head injury,Ambulance,21.7,3.2,12,77,MD005,RN034,Private,Discharged,0
+ED00407,2024-09-15 04:51,Night,Sunday,41,Female,3,Urgent,Head injury,Ambulance,49.3,6.29,7,54,MD001,RN032,Medicare,Discharged,0
+ED00408,2024-08-21 14:26,Morning,Wednesday,21,Female,3,Urgent,Abdominal pain,Walk-in,82.1,6.68,15,65,MD007,RN022,Medicare,Discharged,0
+ED00409,2024-08-30 16:40,Evening,Friday,51,Male,3,Urgent,Head injury,Ambulance,24.5,4.82,12,73,MD006,RN019,Medicare,Admitted,0
+ED00410,2024-08-03 13:47,Morning,Saturday,66,Female,3,Urgent,Head injury,Walk-in,49.6,12.82,14,65,MD008,RN023,Medicaid,Admitted,0
+ED00411,2024-08-23 15:19,Morning,Friday,53,Female,4,Less Urgent,Sprain,Walk-in,24.0,3.72,14,61,MD010,RN030,Private,Discharged,0
+ED00412,2024-09-20 19:55,Evening,Friday,40,Male,3,Urgent,Urinary retention,Walk-in,32.5,8.98,14,86,MD016,RN013,Medicare,Admitted,0
+ED00413,2024-08-18 09:43,Morning,Sunday,60,Female,5,Non-Urgent,Prescription refill,Walk-in,116.9,4.06,14,64,MD005,RN009,Medicaid,Admitted,0
+ED00414,2024-08-28 15:36,Morning,Wednesday,59,Male,3,Urgent,Fracture,Walk-in,19.3,6.03,13,78,MD016,RN022,Medicaid,Discharged,0
+ED00415,2024-09-20 09:20,Morning,Friday,96,Female,4,Less Urgent,Earache,Transfer,94.4,5.57,12,76,MD007,RN011,Medicaid,Discharged,0
+ED00416,2024-07-12 19:31,Evening,Friday,81,Female,3,Urgent,High fever,Police,50.7,3.54,11,85,MD013,RN028,Private,Discharged,0
+ED00417,2024-09-07 09:02,Morning,Saturday,34,Male,3,Urgent,Head injury,Walk-in,31.3,6.71,11,64,MD011,RN034,Private,Admitted,1
+ED00418,2024-09-19 16:00,Evening,Thursday,42,Male,4,Less Urgent,Sprain,Transfer,76.0,3.47,11,82,MD005,RN007,Uninsured,Discharged,0
+ED00419,2024-07-22 02:19,Night,Monday,87,Male,3,Urgent,Head injury,Transfer,42.4,3.59,6,64,MD015,RN034,Private,Discharged,0
+ED00420,2024-09-26 08:27,Morning,Thursday,100,Female,3,Urgent,High fever,Transfer,140.3,4.27,13,70,MD007,RN011,Uninsured,Discharged,1
+ED00421,2024-07-17 08:14,Morning,Wednesday,55,Female,1,Resuscitation,Cardiac arrest,Transfer,2.1,2.34,13,61,MD017,RN011,Medicare,Admitted,0
+ED00422,2024-07-05 02:41,Night,Friday,24,Male,4,Less Urgent,Sprain,Walk-in,279.1,8.58,9,48,MD002,RN004,Medicaid,Discharged,0
+ED00423,2024-07-07 03:01,Night,Sunday,36,Male,4,Less Urgent,Earache,Police,161.6,5.32,4,60,MD004,RN017,Uninsured,Discharged,0
+ED00424,2024-09-27 12:13,Morning,Friday,31,Female,4,Less Urgent,Earache,Walk-in,90.3,4.93,12,77,MD017,RN018,Uninsured,Discharged,0
+ED00425,2024-08-23 12:08,Morning,Friday,31,Male,2,Emergent,Overdose,Ambulance,26.1,5.3,12,61,MD010,RN008,Private,Left AMA,0
+ED00426,2024-07-26 21:38,Evening,Friday,39,Female,3,Urgent,Fracture,Transfer,133.6,10.32,12,75,MD014,RN019,Uninsured,Left AMA,1
+ED00427,2024-07-27 18:31,Evening,Saturday,99,Male,3,Urgent,Fracture,Walk-in,86.2,12.28,11,73,MD001,RN006,Medicare,Discharged,0
+ED00428,2024-09-02 13:42,Morning,Monday,91,Male,3,Urgent,Urinary retention,Walk-in,72.5,4.6,13,78,MD004,RN017,Uninsured,Discharged,0
+ED00429,2024-08-03 04:18,Night,Saturday,23,Female,2,Emergent,Chest pain,Ambulance,21.3,2.61,7,56,MD002,RN019,Medicaid,Discharged,0
+ED00430,2024-08-24 13:20,Morning,Saturday,60,Female,4,Less Urgent,Back pain,Walk-in,149.7,9.81,10,68,MD005,RN011,Private,Admitted,0
+ED00431,2024-09-18 04:28,Night,Wednesday,47,Male,1,Resuscitation,Cardiac arrest,Transfer,5.9,2.39,8,48,MD011,RN012,Medicaid,Transferred,0
+ED00432,2024-08-04 17:29,Evening,Sunday,41,Male,3,Urgent,High fever,Police,32.9,3.88,11,74,MD006,RN008,Medicare,Admitted,0
+ED00433,2024-07-21 18:03,Evening,Sunday,38,Female,3,Urgent,Urinary retention,Police,51.8,2.34,8,89,MD015,RN012,Medicare,Discharged,0
+ED00434,2024-09-17 07:22,Night,Tuesday,71,Female,3,Urgent,Fracture,Police,55.2,7.8,6,58,MD016,RN008,Uninsured,Transferred,0
+ED00435,2024-08-03 15:04,Morning,Saturday,40,Male,4,Less Urgent,UTI symptoms,Walk-in,58.6,8.48,12,74,MD008,RN022,Uninsured,Admitted,0
+ED00436,2024-09-18 07:44,Night,Wednesday,98,Male,4,Less Urgent,Laceration,Police,53.7,5.12,6,49,MD012,RN025,Private,Discharged,0
+ED00437,2024-09-17 18:35,Evening,Tuesday,17,Male,1,Resuscitation,Respiratory failure,Ambulance,4.3,15.69,10,75,MD016,RN032,Uninsured,Transferred,1
+ED00438,2024-08-11 23:31,Evening,Sunday,42,Male,3,Urgent,Head injury,Walk-in,49.3,6.69,9,87,MD017,RN015,Private,Discharged,0
+ED00439,2024-07-31 13:25,Morning,Wednesday,60,Male,3,Urgent,High fever,Walk-in,14.2,6.87,12,73,MD015,RN006,Uninsured,Admitted,0
+ED00440,2024-09-02 14:07,Morning,Monday,40,Male,3,Urgent,High fever,Police,85.7,4.71,12,60,MD002,RN001,Private,Discharged,0
+ED00441,2024-09-20 14:39,Morning,Friday,78,Female,4,Less Urgent,UTI symptoms,Ambulance,39.7,2.71,14,69,MD015,RN022,Private,Discharged,0
+ED00442,2024-07-29 11:52,Morning,Monday,5,Male,5,Non-Urgent,Minor bruise,Walk-in,117.2,16.46,15,72,MD016,RN024,Medicare,Discharged,0
+ED00443,2024-09-23 17:48,Evening,Monday,12,Male,5,Non-Urgent,Rash,Transfer,598.9,16.03,11,81,MD010,RN034,Private,Discharged,0
+ED00444,2024-07-22 21:02,Evening,Monday,58,Male,4,Less Urgent,Earache,Walk-in,64.0,4.14,13,76,MD009,RN013,Uninsured,Admitted,0
+ED00445,2024-08-20 16:54,Evening,Tuesday,42,Male,3,Urgent,Fracture,Transfer,33.7,4.33,11,71,MD004,RN027,Private,Admitted,0
+ED00446,2024-09-25 05:53,Night,Wednesday,79,Male,3,Urgent,High fever,Police,42.9,4.35,10,60,MD017,RN009,Medicare,Discharged,1
+ED00447,2024-07-07 20:47,Evening,Sunday,71,Female,4,Less Urgent,UTI symptoms,Police,81.6,3.1,12,88,MD017,RN012,Uninsured,Discharged,0
+ED00448,2024-07-17 21:52,Evening,Wednesday,46,Female,5,Non-Urgent,Minor bruise,Walk-in,458.8,18.21,10,82,MD011,RN033,Private,Discharged,0
+ED00449,2024-09-27 13:38,Morning,Friday,80,Female,4,Less Urgent,Earache,Transfer,51.8,6.15,13,62,MD010,RN029,Private,Admitted,0
+ED00450,2024-09-28 12:38,Morning,Saturday,53,Female,5,Non-Urgent,Minor bruise,Transfer,166.5,6.15,14,64,MD007,RN013,Private,Discharged,0
+ED00451,2024-09-26 11:18,Morning,Thursday,42,Female,1,Resuscitation,Respiratory failure,Walk-in,4.6,3.04,14,61,MD017,RN021,Private,Admitted,0
+ED00452,2024-08-31 10:35,Morning,Saturday,66,Female,5,Non-Urgent,Prescription refill,Walk-in,98.7,5.31,14,58,MD010,RN028,Uninsured,Discharged,0
+ED00453,2024-08-18 09:01,Morning,Sunday,57,Male,4,Less Urgent,Back pain,Ambulance,41.5,3.11,11,67,MD009,RN011,Medicare,Discharged,0
+ED00454,2024-07-08 13:09,Morning,Monday,3,Female,4,Less Urgent,UTI symptoms,Walk-in,31.6,4.44,14,61,MD012,RN029,Medicare,Admitted,0
+ED00455,2024-09-10 10:43,Morning,Tuesday,83,Female,1,Resuscitation,Anaphylaxis,Ambulance,2.3,3.34,13,67,MD008,RN033,Private,Admitted,0
+ED00456,2024-08-18 12:03,Morning,Sunday,76,Male,1,Resuscitation,Stroke,Ambulance,2.5,4.61,13,66,MD002,RN001,Workers Comp,Admitted,0
+ED00457,2024-08-26 15:55,Morning,Monday,87,Male,3,Urgent,Head injury,Walk-in,17.7,8.15,13,67,MD007,RN013,Medicare,Discharged,0
+ED00458,2024-07-10 13:43,Morning,Wednesday,30,Female,4,Less Urgent,UTI symptoms,Walk-in,41.0,7.32,13,71,MD013,RN003,Medicare,Transferred,0
+ED00459,2024-07-17 13:16,Morning,Wednesday,8,Female,3,Urgent,Head injury,Walk-in,58.0,3.78,13,62,MD011,RN030,Medicaid,Discharged,1
+ED00460,2024-08-11 12:59,Morning,Sunday,77,Female,3,Urgent,Urinary retention,Transfer,40.5,2.87,14,60,MD016,RN023,Medicare,Discharged,0
+ED00461,2024-09-06 10:20,Morning,Friday,9,Male,3,Urgent,Urinary retention,Walk-in,118.5,4.64,13,71,MD017,RN011,Private,Discharged,0
+ED00462,2024-07-12 09:25,Morning,Friday,86,Male,4,Less Urgent,Laceration,Transfer,94.1,5.25,14,67,MD011,RN024,Private,Discharged,0
+ED00463,2024-09-18 10:48,Morning,Wednesday,79,Male,4,Less Urgent,UTI symptoms,Walk-in,81.9,9.4,16,72,MD004,RN023,Private,Discharged,0
+ED00464,2024-09-17 12:41,Morning,Tuesday,99,Male,4,Less Urgent,Back pain,Transfer,40.1,4.63,16,70,MD013,RN008,Workers Comp,Left AMA,0
+ED00465,2024-08-06 19:46,Evening,Tuesday,37,Male,4,Less Urgent,Sprain,Walk-in,208.0,8.59,10,85,MD017,RN029,Private,Admitted,1
+ED00466,2024-09-22 13:57,Morning,Sunday,28,Female,3,Urgent,Urinary retention,Walk-in,89.9,6.58,11,75,MD004,RN011,Uninsured,Admitted,0
+ED00467,2024-07-09 15:40,Morning,Tuesday,33,Female,4,Less Urgent,Laceration,Police,111.8,4.77,13,75,MD004,RN014,Medicare,Discharged,0
+ED00468,2024-08-25 23:56,Evening,Sunday,67,Female,4,Less Urgent,Laceration,Walk-in,68.6,8.81,8,71,MD015,RN022,Private,Admitted,0
+ED00469,2024-07-23 15:03,Morning,Tuesday,30,Female,3,Urgent,Abdominal pain,Walk-in,64.6,3.91,14,71,MD008,RN017,Private,Discharged,0
+ED00470,2024-08-21 18:40,Evening,Wednesday,7,Female,3,Urgent,Abdominal pain,Police,88.6,6.92,13,90,MD004,RN001,Private,Discharged,0
+ED00471,2024-09-13 21:04,Evening,Friday,14,Male,3,Urgent,Abdominal pain,Transfer,39.4,5.08,10,79,MD017,RN007,Private,Discharged,0
+ED00472,2024-09-16 13:19,Morning,Monday,66,Female,3,Urgent,High fever,Police,26.1,3.09,12,73,MD013,RN002,Uninsured,Discharged,0
+ED00473,2024-07-18 15:14,Morning,Thursday,15,Female,4,Less Urgent,Sprain,Ambulance,31.3,5.0,15,58,MD010,RN024,Uninsured,Discharged,0
+ED00474,2024-07-19 12:35,Morning,Friday,56,Female,2,Emergent,Chest pain,Transfer,5.7,8.44,12,67,MD013,RN006,Private,Admitted,0
+ED00475,2024-08-14 17:47,Evening,Wednesday,66,Female,5,Non-Urgent,Minor bruise,Ambulance,57.5,3.88,11,77,MD006,RN012,Medicare,Discharged,0
+ED00476,2024-07-25 18:16,Evening,Thursday,41,Male,3,Urgent,Urinary retention,Walk-in,78.3,15.67,10,79,MD015,RN005,Uninsured,Discharged,0
+ED00477,2024-07-13 21:16,Evening,Saturday,71,Female,4,Less Urgent,UTI symptoms,Police,79.2,3.97,9,74,MD011,RN023,Medicare,Discharged,0
+ED00478,2024-07-13 17:15,Evening,Saturday,94,Female,3,Urgent,Abdominal pain,Ambulance,111.5,6.72,10,84,MD011,RN032,Medicare,Discharged,0
+ED00479,2024-08-09 15:42,Morning,Friday,32,Male,3,Urgent,Urinary retention,Walk-in,10.0,11.21,16,71,MD012,RN021,Medicare,Discharged,0
+ED00480,2024-08-01 08:20,Morning,Thursday,84,Non-binary/Other,5,Non-Urgent,Prescription refill,Transfer,351.7,6.87,13,68,MD012,RN009,Uninsured,Discharged,0
+ED00481,2024-08-27 11:29,Morning,Tuesday,67,Male,3,Urgent,High fever,Walk-in,109.8,4.37,14,78,MD004,RN012,Private,Discharged,0
+ED00482,2024-08-05 07:53,Night,Monday,73,Female,4,Less Urgent,Laceration,Transfer,282.5,13.18,7,45,MD003,RN005,Private,Discharged,0
+ED00483,2024-07-04 16:40,Evening,Thursday,81,Male,2,Emergent,Seizure,Ambulance,37.5,3.06,14,87,MD007,RN003,Medicare,Left AMA,0
+ED00484,2024-09-08 14:57,Morning,Sunday,9,Male,4,Less Urgent,Laceration,Transfer,33.2,5.27,13,76,MD013,RN015,Private,Discharged,0
+ED00485,2024-07-18 10:18,Morning,Thursday,33,Male,4,Less Urgent,UTI symptoms,Walk-in,280.8,9.11,15,74,MD013,RN024,Uninsured,Admitted,1
+ED00486,2024-09-17 19:15,Evening,Tuesday,64,Male,4,Less Urgent,Laceration,Police,44.8,10.92,11,88,MD006,RN012,Private,Discharged,0
+ED00487,2024-07-19 15:42,Morning,Friday,74,Female,3,Urgent,Abdominal pain,Ambulance,24.5,4.49,15,60,MD016,RN015,Private,Discharged,0
+ED00488,2024-07-06 12:14,Morning,Saturday,91,Male,4,Less Urgent,Sprain,Police,12.1,2.41,11,59,MD016,RN030,Private,Discharged,1
+ED00489,2024-08-11 22:41,Evening,Sunday,54,Male,3,Urgent,Urinary retention,Transfer,47.6,4.12,8,82,MD009,RN012,Workers Comp,Admitted,0
+ED00490,2024-09-14 13:23,Morning,Saturday,84,Male,3,Urgent,Head injury,Police,22.2,4.25,10,70,MD008,RN034,Private,Discharged,0
+ED00491,2024-08-14 13:55,Morning,Wednesday,94,Male,4,Less Urgent,UTI symptoms,Walk-in,66.6,7.2,15,72,MD017,RN009,Private,Discharged,0
+ED00492,2024-09-04 15:04,Morning,Wednesday,45,Male,3,Urgent,Fracture,Ambulance,19.0,3.92,14,77,MD006,RN024,Medicaid,Admitted,0
+ED00493,2024-09-23 04:07,Night,Monday,60,Male,4,Less Urgent,Sprain,Walk-in,259.7,9.55,7,60,MD016,RN031,Private,Admitted,0
+ED00494,2024-09-21 06:10,Night,Saturday,37,Male,4,Less Urgent,Laceration,Walk-in,99.4,8.92,7,49,MD005,RN011,Private,Discharged,0
+ED00495,2024-09-12 16:02,Evening,Thursday,14,Male,2,Emergent,Altered mental status,Walk-in,26.2,5.86,11,82,MD006,RN034,Private,Admitted,0
+ED00496,2024-09-20 10:36,Morning,Friday,60,Female,5,Non-Urgent,Rash,Walk-in,153.8,3.54,12,77,MD007,RN029,Private,Admitted,0
+ED00497,2024-08-31 19:55,Evening,Saturday,49,Female,5,Non-Urgent,Prescription refill,Walk-in,76.5,4.79,9,89,MD005,RN012,Medicare,Discharged,0
+ED00498,2024-07-22 16:16,Evening,Monday,49,Male,5,Non-Urgent,Minor bruise,Walk-in,37.6,3.88,12,82,MD003,RN015,Uninsured,Admitted,0
+ED00499,2024-07-03 16:06,Evening,Wednesday,79,Female,3,Urgent,Urinary retention,Police,55.7,11.21,11,75,MD005,RN007,Private,Admitted,0
+ED00500,2024-09-15 12:39,Morning,Sunday,30,Female,5,Non-Urgent,Minor bruise,Walk-in,892.4,22.51,10,62,MD003,RN031,Medicare,Discharged,0
+ED00501,2024-07-01 04:34,Night,Monday,31,Female,4,Less Urgent,Earache,Transfer,119.7,13.62,9,58,MD002,RN034,Private,Discharged,0
+ED00502,2024-08-31 08:51,Morning,Saturday,8,Male,2,Emergent,Overdose,Ambulance,7.4,2.23,13,62,MD004,RN028,Private,Discharged,0
+ED00503,2024-07-30 19:49,Evening,Tuesday,12,Female,2,Emergent,Overdose,Ambulance,8.7,4.65,10,76,MD014,RN017,Private,Admitted,1
+ED00504,2024-07-01 22:47,Evening,Monday,65,Male,1,Resuscitation,Cardiac arrest,Transfer,3.1,2.06,14,90,MD001,RN025,Medicare,Admitted,0
+ED00505,2024-08-10 08:51,Morning,Saturday,32,Male,2,Emergent,Chest pain,Transfer,10.2,2.54,13,66,MD014,RN017,Uninsured,Admitted,0
+ED00506,2024-09-11 08:27,Morning,Wednesday,1,Female,3,Urgent,Head injury,Police,19.6,5.09,14,75,MD007,RN027,Private,Admitted,0
+ED00507,2024-07-23 14:30,Morning,Tuesday,71,Male,3,Urgent,Urinary retention,Police,36.7,6.69,14,76,MD009,RN020,Medicaid,Discharged,0
+ED00508,2024-08-20 06:45,Night,Tuesday,57,Male,2,Emergent,Chest pain,Transfer,25.4,8.79,7,48,MD015,RN011,Medicaid,Discharged,0
+ED00509,2024-08-13 11:25,Morning,Tuesday,30,Male,4,Less Urgent,Back pain,Ambulance,56.2,5.56,16,60,MD013,RN001,Workers Comp,Discharged,0
+ED00510,2024-09-15 09:30,Morning,Sunday,48,Female,4,Less Urgent,Back pain,Transfer,174.7,5.56,13,60,MD008,RN024,Uninsured,Admitted,0
+ED00511,2024-08-19 20:46,Evening,Monday,47,Female,2,Emergent,Overdose,Ambulance,7.1,5.9,13,90,MD002,RN012,Workers Comp,Discharged,0
+ED00512,2024-07-26 08:00,Morning,Friday,24,Female,4,Less Urgent,Laceration,Walk-in,24.3,4.19,16,65,MD017,RN034,Uninsured,Admitted,0
+ED00513,2024-07-05 23:43,Evening,Friday,53,Male,3,Urgent,Abdominal pain,Ambulance,115.3,4.14,12,82,MD003,RN018,Private,Discharged,0
+ED00514,2024-08-21 15:25,Morning,Wednesday,59,Male,2,Emergent,Overdose,Walk-in,37.9,2.62,16,75,MD003,RN006,Medicaid,Discharged,0
+ED00515,2024-09-10 18:53,Evening,Tuesday,59,Female,4,Less Urgent,Sprain,Transfer,144.9,4.76,14,84,MD008,RN013,Private,Admitted,0
+ED00516,2024-07-01 14:36,Morning,Monday,61,Female,2,Emergent,Seizure,Ambulance,6.7,1.86,14,74,MD004,RN005,Private,Discharged,0
+ED00517,2024-09-04 10:07,Morning,Wednesday,92,Male,4,Less Urgent,UTI symptoms,Transfer,65.2,4.7,14,76,MD015,RN025,Medicare,Discharged,0
+ED00518,2024-08-13 16:15,Evening,Tuesday,86,Male,4,Less Urgent,Earache,Walk-in,121.1,3.01,13,73,MD001,RN031,Uninsured,Discharged,0
+ED00519,2024-09-20 15:24,Morning,Friday,48,Female,5,Non-Urgent,Cold symptoms,Transfer,303.1,10.72,13,74,MD014,RN023,Private,Transferred,0
+ED00520,2024-08-03 09:44,Morning,Saturday,38,Female,3,Urgent,Abdominal pain,Police,26.0,3.29,11,75,MD011,RN005,Private,Discharged,0
+ED00521,2024-08-10 16:30,Evening,Saturday,36,Male,2,Emergent,Overdose,Walk-in,5.5,4.83,10,85,MD006,RN013,Private,Discharged,0
+ED00522,2024-07-31 17:15,Evening,Wednesday,66,Female,4,Less Urgent,Laceration,Ambulance,509.2,10.33,12,74,MD008,RN023,Workers Comp,Transferred,0
+ED00523,2024-07-11 18:07,Evening,Thursday,33,Male,3,Urgent,Abdominal pain,Walk-in,52.9,4.79,13,81,MD002,RN031,Uninsured,Discharged,0
+ED00524,2024-09-12 14:31,Morning,Thursday,73,Male,4,Less Urgent,Laceration,Walk-in,115.7,4.72,14,65,MD009,RN026,Medicaid,Discharged,0
+ED00525,2024-07-07 22:08,Evening,Sunday,75,Female,4,Less Urgent,Earache,Walk-in,69.9,6.85,12,81,MD002,RN033,Workers Comp,Admitted,0
+ED00526,2024-07-23 12:43,Morning,Tuesday,60,Male,2,Emergent,Overdose,Ambulance,17.8,7.96,15,58,MD011,RN001,Private,Discharged,0
+ED00527,2024-09-13 16:24,Evening,Friday,35,Male,4,Less Urgent,Sprain,Walk-in,60.0,2.91,10,87,MD009,RN012,Uninsured,Admitted,0
+ED00528,2024-08-30 12:17,Morning,Friday,10,Female,4,Less Urgent,Sprain,Ambulance,16.2,2.51,16,64,MD016,RN028,Medicaid,Discharged,0
+ED00529,2024-08-17 11:48,Morning,Saturday,82,Female,4,Less Urgent,Sprain,Police,51.5,7.75,12,76,MD006,RN009,Medicare,Admitted,0
+ED00530,2024-07-13 17:52,Evening,Saturday,54,Female,5,Non-Urgent,Minor bruise,Police,48.2,10.18,10,74,MD013,RN013,Medicare,Discharged,0
+ED00531,2024-07-20 11:47,Morning,Saturday,66,Female,4,Less Urgent,Laceration,Police,59.3,6.49,13,78,MD016,RN009,Uninsured,Admitted,0
+ED00532,2024-08-10 11:46,Morning,Saturday,72,Female,5,Non-Urgent,Rash,Walk-in,140.9,5.25,13,61,MD002,RN026,Uninsured,Discharged,0
+ED00533,2024-07-28 08:03,Morning,Sunday,81,Male,2,Emergent,Chest pain,Ambulance,9.2,13.4,12,69,MD011,RN017,Private,Admitted,0
+ED00534,2024-08-02 09:35,Morning,Friday,51,Female,4,Less Urgent,Earache,Walk-in,452.0,12.79,14,76,MD012,RN013,Private,Admitted,0
+ED00535,2024-09-07 07:41,Night,Saturday,43,Female,4,Less Urgent,Sprain,Transfer,337.3,14.07,5,59,MD017,RN032,Medicare,Admitted,0
+ED00536,2024-09-17 12:24,Morning,Tuesday,35,Male,5,Non-Urgent,Cold symptoms,Ambulance,240.9,14.73,14,78,MD011,RN027,Medicaid,Left AMA,0
+ED00537,2024-07-10 18:25,Evening,Wednesday,44,Male,3,Urgent,Head injury,Ambulance,66.2,5.69,10,90,MD011,RN021,Private,Discharged,0
+ED00538,2024-09-16 13:17,Morning,Monday,21,Female,5,Non-Urgent,Prescription refill,Transfer,1603.3,44.62,15,71,MD017,RN029,Medicare,Discharged,0
+ED00539,2024-07-03 17:54,Evening,Wednesday,76,Male,4,Less Urgent,Laceration,Transfer,23.0,1.92,11,75,MD003,RN014,Private,Admitted,0
+ED00540,2024-07-09 13:06,Morning,Tuesday,55,Male,3,Urgent,Abdominal pain,Walk-in,58.1,3.7,15,60,MD013,RN034,Workers Comp,Discharged,0
+ED00541,2024-07-20 13:39,Morning,Saturday,28,Male,5,Non-Urgent,Prescription refill,Transfer,76.5,5.35,10,67,MD008,RN016,Medicare,Discharged,0
+ED00542,2024-07-17 21:08,Evening,Wednesday,19,Male,4,Less Urgent,Back pain,Walk-in,40.5,6.8,14,85,MD012,RN021,Uninsured,Admitted,0
+ED00543,2024-09-08 13:55,Morning,Sunday,44,Female,2,Emergent,Seizure,Walk-in,2.8,5.03,12,78,MD006,RN030,Medicare,Discharged,0
+ED00544,2024-09-11 23:56,Evening,Wednesday,77,Male,3,Urgent,Urinary retention,Transfer,38.8,4.06,13,87,MD012,RN031,Private,Discharged,0
+ED00545,2024-08-26 14:05,Morning,Monday,99,Male,5,Non-Urgent,Prescription refill,Transfer,76.3,12.32,14,58,MD005,RN020,Private,Left AMA,1
+ED00546,2024-07-18 10:52,Morning,Thursday,42,Male,3,Urgent,High fever,Walk-in,41.6,3.89,14,73,MD001,RN032,Medicaid,Discharged,0
+ED00547,2024-08-25 19:49,Evening,Sunday,31,Male,3,Urgent,Fracture,Walk-in,23.4,3.18,10,83,MD012,RN013,Private,Discharged,0
+ED00548,2024-08-20 11:27,Morning,Tuesday,87,Female,3,Urgent,High fever,Police,68.7,4.89,13,60,MD008,RN017,Medicare,Discharged,0
+ED00549,2024-09-05 22:15,Evening,Thursday,39,Male,2,Emergent,Severe bleeding,Walk-in,5.7,2.47,14,76,MD009,RN027,Private,Discharged,0
+ED00550,2024-07-18 07:11,Night,Thursday,13,Female,2,Emergent,Seizure,Ambulance,18.7,10.11,8,64,MD015,RN018,Medicare,Admitted,0
