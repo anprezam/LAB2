@@ -1,4 +1,13 @@
+# Integrantes:
+#- María Angélica Pérez Reza
+#- Jorge Salazar Arrieta
+#- Valeria Marcela Peña&nbsp;
+#- Natalia Sojo Jimenez
 
+#Fuimos contratados por un hospital en el Atlántico que estaba recibiendo quejas en los tiempos de atención, y los directivos 
+# discutian la probabilidad de contratar o no más personal, se estudió los tienpos de respuesta según nivel de gravedad, 
+# el flujo de pacientes según el transcurso del día, la evolución del estado del paciente según si es admitido, transferido, dado de alta
+# y demás, y la relación entre el número de staff y los tiempos de respuesta
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
