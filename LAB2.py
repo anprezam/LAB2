@@ -24,10 +24,16 @@ fig1 = px.histogram(
     facet_col="triage_level", facet_col_wrap=3,
     nbins=20,
     title="Wait Time Distribution by Triage Level",
-    labels={"wait_time_minutes", "triage_level"},
+    labels={"wait_time_minutes": "Wait Time (minutes)", "triage_level": "Triage Level"},
     color_discrete_sequence=px.colors.qualitative.Set2
 )
-fig1.update_layout(showlegend=False)
+fig1.update_layout(
+    showlegend=False,
+    height=500,  # más altura para dar espacio entre filas
+)
+
+# Corrige las anotaciones del eje X para cada faceta
+fig1.for_each_xaxis(lambda axis: axis.update(title_text="wait_time_minutes"))
 
 # ── Plot 2 – Arrivals by Hour of Day ────────────────────────────
 hourly = filtered_df.groupby('hour').size().reset_index(name='count')
