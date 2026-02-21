@@ -19,13 +19,15 @@ filtered_df = df[df['triage_level'].isin(triage_filter)].copy()
 filtered_df['hour'] = pd.to_datetime(filtered_df['arrival_datetime']).dt.hour
 
 # ── Plot 1 – Wait Time Distribution by Triage Level ─────────────
-fig1 = px.violin(
-    filtered_df, x="triage_level", y="wait_time_minutes",
-    color="triage_level", box=True,
+fig1 = px.histogram(
+    filtered_df, x="wait_time_minutes", color="triage_level",
+    facet_col="triage_level", facet_col_wrap=3,
+    nbins=20,
     title="Wait Time Distribution by Triage Level",
-    labels={"wait_time_minutes": "Wait Time (minutes)", "triage_level": "Triage Level"},
+    labels={"wait_time_minutes": "Wait Time (minutes)", "triage_level": "Triage"},
     color_discrete_sequence=px.colors.qualitative.Set2
 )
+fig1.update_layout(showlegend=False)
 
 # ── Plot 2 – Arrivals by Hour of Day ────────────────────────────
 hourly = filtered_df.groupby('hour').size().reset_index(name='count')
