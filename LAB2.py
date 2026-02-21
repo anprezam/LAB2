@@ -31,22 +31,20 @@ fig1 = px.histogram(
 fig1.update_layout(
     showlegend=False,
     height=600,
-    margin=dict(b=120)  # aumenta este valor también
-    
+    margin=dict(b=100)
+)
+
 # Elimina todos los títulos de eje X individuales
 fig1.for_each_xaxis(lambda axis: axis.update(title_text=""))
 
 # Agrega un único título centrado en la parte inferior
-
-
 fig1.add_annotation(
     text="wait_time_minutes",
     xref="paper", yref="paper",
-    x=0.5, y=-0.15,  # más negativo = más abajo
+    x=0.5, y=-0.08,
     showarrow=False,
     font=dict(size=14)
 )
-
 # ── Plot 2 – Arrivals by Hour of Day ────────────────────────────
 hourly = filtered_df.groupby('hour').size().reset_index(name='count')
 fig2 = px.bar(
