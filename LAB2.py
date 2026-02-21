@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
+df = pd.read_csv("tu_archivo.csv") 
 st.title("🏥 ED Patient Data — Overview")
 
 # ── Sidebar filters ──────────────────────────────────────────────
