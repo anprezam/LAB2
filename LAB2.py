@@ -41,7 +41,7 @@ fig1.for_each_xaxis(lambda axis: axis.update(title_text=""))
 fig1.add_annotation(
     text="wait_time_minutes",
     xref="paper", yref="paper",
-    x=0.5, y=-0.08,
+    x=0.5, y=-0.15,
     showarrow=False,
     font=dict(size=14)
 )
