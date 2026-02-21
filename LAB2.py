@@ -35,6 +35,12 @@ fig1.update_layout(
 # Corrige las anotaciones del eje X para cada faceta
 fig1.for_each_xaxis(lambda axis: axis.update(title_text="wait_time_minutes"))
 
+fig1.update_layout(
+    showlegend=False,
+    height=550,
+    margin=dict(b=80)  # más margen inferior
+)
+
 # ── Plot 2 – Arrivals by Hour of Day ────────────────────────────
 hourly = filtered_df.groupby('hour').size().reset_index(name='count')
 fig2 = px.bar(
